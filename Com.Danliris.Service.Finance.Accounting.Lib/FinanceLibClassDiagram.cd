@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.AutoMapperProfiles.DailyBankTransaction.DailyBankTransactionProfile" Collapsed="true">
+    <Position X="54.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoMapperProfiles\DailyBankTransaction\DailyBankTransactionProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.AutoMapperProfiles.JournalTransaction.JournalTransactionProfile" Collapsed="true">
+    <Position X="42.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoMapperProfiles\JournalTransaction\JournalTransactionProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.AutoMapperProfiles.LockTransaction.LockTransactionProfile" Collapsed="true">
+    <Position X="52.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoMapperProfiles\LockTransaction\LockTransactionProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.AutoMapperProfiles.Master.COAProfile" Collapsed="true">
+    <Position X="47.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoMapperProfiles\Master\COAProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.AutoMapperProfiles.PaymentDispositionNote.PaymentDispositionNoteProfile" Collapsed="true">
+    <Position X="56.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoMapperProfiles\PaymentDispositionNote\PaymentDispositionNoteProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.AutoMapperProfiles.PurchasingDispositionExpedition.PurchasingDispositionExpeditionProfile" Collapsed="true">
+    <Position X="54.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoMapperProfiles\PurchasingDispositionExpedition\PurchasingDispositionExpeditionProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.CreditBalance.CreditBalanceService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAAQAAAAAAAAAAEAAAAIAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>BusinessLogic\Services\CreditBalance\CreditBalanceService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.CreditorAccount.CreditorAccountService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAABIAAAQAAAgAAAAEIMAggAIAAgAiAQEBIAQJJA=</HashCode>
+      <FileName>BusinessLogic\Services\CreditorAccount\CreditorAccountService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.DailyBankTransaction.DailyBankTransactionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgIBIAAACAAAJAAACAAAwEQAAAYgAAAAAI4AQAqA=</HashCode>
+      <FileName>BusinessLogic\Services\DailyBankTransaction\DailyBankTransactionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.JournalTransaction.JournalTransactionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQEAhIAAAEAAAJAQAAIACsAwAAAAgABAAgIKABgpA=</HashCode>
+      <FileName>BusinessLogic\Services\JournalTransaction\JournalTransactionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.JournalTransaction.BankPaymentResult" Collapsed="true">
+    <Position X="51" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\Services\JournalTransaction\JournalTransactionService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.JournalTransaction.BankPayment" Collapsed="true">
+    <Position X="49.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAA=</HashCode>
+      <FileName>BusinessLogic\Services\JournalTransaction\JournalTransactionService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.JournalTransaction.UnitReceiptNoteResult" Collapsed="true">
+    <Position X="44" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\Services\JournalTransaction\JournalTransactionService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.JournalTransaction.UnitReceiptNote" Collapsed="true">
+    <Position X="42.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAABBAAAAAAAAAIAAAA=</HashCode>
+      <FileName>BusinessLogic\Services\JournalTransaction\JournalTransactionService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.LockTransaction.LockTransactionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAIAAAAIAAgQgAAAAgBAAAAAIABBIA=</HashCode>
+      <FileName>BusinessLogic\Services\LockTransaction\LockTransactionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.Master.COAService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACBAQQCAAAQAAAJAAAAAAMgAgAICAkEAgAABIABIIA=</HashCode>
+      <FileName>BusinessLogic\Services\Master\COAService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.PaymentDispositionNote.PaymentDispositionNoteService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAIAAAAAAMgAgAIAAgACwAAAIAAIIA=</HashCode>
+      <FileName>BusinessLogic\Services\PaymentDispositionNote\PaymentDispositionNoteService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.PaymentDispositionNotVerifiedReport.PaymentDispositionNotVerifiedReportService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAAQAAAAAAAAIAEAAAAIAAAAAQAAAAAAIAA=</HashCode>
+      <FileName>BusinessLogic\Services\PaymentDispositionNotVerifiedReport\PaymentDispositionNotVerifiedReportService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.PurchasingDispositionExpedition.PurchasingDispositionExpeditionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQAAAAAAAAQCAAYAAAAAAMgEgAIIAgAAwAAAoAAIIA=</HashCode>
+      <FileName>BusinessLogic\Services\PurchasingDispositionExpedition\PurchasingDispositionExpeditionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Enums.Expedition.ExpeditionPositionExtensions" Collapsed="true">
+    <Position X="47.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Enums\Expedition\ExpeditionPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Enums.JournalTransaction.JournalTransactionStatus" Collapsed="true">
+    <Position X="47.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\JournalTransaction\JournalTransactionEnum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Enums.JournalTransaction.JournalNumberGenerator" Collapsed="true">
+    <Position X="54.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\JournalTransaction\JournalTransactionEnum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Enums.Master.COACategoryEnumExtensions" Collapsed="true">
+    <Position X="44" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Enums\Master\COACategoryEnum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Helpers.Excel" Collapsed="true">
+    <Position X="45.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Excel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Helpers.General" Collapsed="true">
+    <Position X="40.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\General.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Helpers.ObjectExtension" Collapsed="true">
+    <Position X="47.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Helpers\ObjectExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.AddCOAModule" Collapsed="true">
+    <Position X="37" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181009104040_AddCOAModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.FixCOATableNae" Collapsed="true">
+    <Position X="37" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181009104911_FixCOATableNae.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.AdCreditorAccountModel" Collapsed="true">
+    <Position X="40.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181030123310_AdCreditorAccountModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.DailyBankTransaction" Collapsed="true">
+    <Position X="49.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181030153837_DailyBankTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.JournalTransaction" Collapsed="true">
+    <Position X="56.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181105144609_JournalTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.AddCurrencyInCreditorAccount" Collapsed="true">
+    <Position X="38.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181108071150_AddCurrencyInCreditorAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.fixDataTypeCreditorAccount" Collapsed="true">
+    <Position X="38.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181109122521_fixDataTypeCreditorAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.ModifyJournalTransaction" Collapsed="true">
+    <Position X="37" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181112091557_ModifyJournalTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Add_Table_PurchasingDispositionExpedition" Collapsed="true">
+    <Position X="52.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181115064128_Add_Table_PurchasingDispositionExpedition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.UpdateCOATable" Collapsed="true">
+    <Position X="52.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181122111112_UpdateCOATable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.ReverseJournal" Collapsed="true">
+    <Position X="51" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20181226052225_ReverseJournal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.AddProductInCreditorAccount" Collapsed="true">
+    <Position X="40.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190114082320_AddProductInCreditorAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Updating_PurchasingDispositionExpeditionModel" Collapsed="true">
+    <Position X="56.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190116091456_Updating_PurchasingDispositionExpeditionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Updating_PurchasingDispositionExpeditionModel_ProformaNo" Collapsed="true">
+    <Position X="37" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190117025913_Updating_PurchasingDispositionExpeditionModel_ProformaNo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Fix_DispositionExpedition_Tax_Vat" Collapsed="true">
+    <Position X="52.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190122032638_Fix_DispositionExpedition_Tax_Vat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Initial_PaymentDispositionNote" Collapsed="true">
+    <Position X="52.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190129021633_Initial_PaymentDispositionNote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.add_uomId_PurchasingDisposition" Collapsed="true">
+    <Position X="54.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190130042637_add_uomId_PurchasingDisposition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Add_PayToSupplier_PurchasingDispositionExpedition" Collapsed="true">
+    <Position X="51" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190131041636_Add_PayToSupplier_PurchasingDispositionExpedition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Fix_FK_PurchasingDispositionExpedition" Collapsed="true">
+    <Position X="54.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190202024522_Fix_FK_PurchasingDispositionExpedition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.LockingTransactions" Collapsed="true">
+    <Position X="49.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190206070854_LockingTransactions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.RenameColumn" Collapsed="true">
+    <Position X="49.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190206080405_RenameColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Add_PaymentDueDate_PaymentDispositionNoteItems" Collapsed="true">
+    <Position X="47.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190206082051_Add_PaymentDueDate_PaymentDispositionNoteItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Add_PayToSupplier_PaymentDispositionNoteItems" Collapsed="true">
+    <Position X="49.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190206090724_Add_PayToSupplier_PaymentDispositionNoteItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Add_EPOId_PurchasingDispositionExpeditionItems" Collapsed="true">
+    <Position X="45.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190212015543_Add_EPOId_PurchasingDispositionExpeditionItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.Add_EPOId_PaymentDispositionNoteDetails" Collapsed="true">
+    <Position X="44" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190212020356_Add_EPOId_PaymentDispositionNoteDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.PostingJournalStatus" Collapsed="true">
+    <Position X="40.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190214075008_PostingJournalStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.NumberGenerator" Collapsed="true">
+    <Position X="44" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190220093157_NumberGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.RemoveEndAndBeginLockDate" Collapsed="true">
+    <Position X="47.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190418082710_RemoveEndAndBeginLockDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.ModifyColumnTypeDailyBankTransaction" Collapsed="true">
+    <Position X="56.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190613095039_ModifyColumnTypeDailyBankTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.AddBalanceInCOA" Collapsed="true">
+    <Position X="56.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190703103333_AddBalanceInCOA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.destinationBankInDailyBankTransaction" Collapsed="true">
+    <Position X="38.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190729091648_destinationBankInDailyBankTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.ChangeDatatypeInJournalToDecimal" Collapsed="true">
+    <Position X="40.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190816080535_ChangeDatatypeInJournalToDecimal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.ChangeDatatypeInJournalToDecimalFix" Collapsed="true">
+    <Position X="42.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190816080930_ChangeDatatypeInJournalToDecimalFix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.FixBalanceInCoaDatatype" Collapsed="true">
+    <Position X="56.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190816081112_FixBalanceInCoaDatatype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.add_currencies_in_PaymentDispositionNotes" Collapsed="true">
+    <Position X="42.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190824035410_add_currencies_in_PaymentDispositionNotes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.BankDailyBalance" Collapsed="true">
+    <Position X="47.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190827064727_BankDailyBalance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.DeleteNominalOut" Collapsed="true">
+    <Position X="37" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190909114110_DeleteNominalOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.DailyBankTransactionOut" Collapsed="true">
+    <Position X="52.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190910081315_DailyBankTransactionOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.CreditorAccountEnhancement" Collapsed="true">
+    <Position X="37" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190911023852_CreditorAccountEnhancement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.CreditorAccount" Collapsed="true">
+    <Position X="56.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190911034530_CreditorAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.UpdateColumnCreditorAccount" Collapsed="true">
+    <Position X="54.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20190911115506_UpdateColumnCreditorAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Migrations.FinanceDbContextModelSnapshot" Collapsed="true">
+    <Position X="51" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Migrations\FinanceDbContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.CreditorAccount.CreditorAccountModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAYACACAAQCQAIAEQBgAAAQQQCQoAAAAABAFQ=</HashCode>
+      <FileName>Models\CreditorAccount\CreditorAccountModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.DailyBankTransaction.BankTransactionMonthlyBalanceModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABACAAIAAAAAAAAAAAAAAgAAEAgAAAAAAAAA=</HashCode>
+      <FileName>Models\DailyBankTransaction\BankTransactionMonthlyBalanceModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.DailyBankTransaction.DailyBankTransactionModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYAAgEAACAAMAAQBAgQAQAoQCEAAEhAIABKBB5BUA=</HashCode>
+      <FileName>Models\DailyBankTransaction\DailyBankTransactionModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.JournalTransaction.JournalTransactionItemModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAGACAABAAAAAAAAFAAAAAAAAgAAAAAAAQA=</HashCode>
+      <FileName>Models\JournalTransaction\JournalTransactionItemModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.JournalTransaction.JournalTransactionModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAUAACgCAAAAAAAAAAAAAAAAAABAAEAQAABAAA=</HashCode>
+      <FileName>Models\JournalTransaction\JournalTransactionModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.JournalTransaction.JournalTransactionNumber" Collapsed="true">
+    <Position X="40.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAEAAAAAAABAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Models\JournalTransaction\JournalTransactionNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.LockTransaction.LockTransactionModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACgAAAAAAAAAAAAAAAAAACAAQAAAAAACAA=</HashCode>
+      <FileName>Models\LockTransaction\LockTransactionModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.MasterCOA.COAModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BARAAAAAAAKAAAIAAAggAAQQAAIAAAAAAQAACAEAAAA=</HashCode>
+      <FileName>Models\Master\COA\COAModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.PaymentDispositionNote.PaymentDispositionNoteDetailModel" Collapsed="true">
+    <Position X="49.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIAAAQAAAAAgAAAAAAIAAAAgAIBAAAAEwAIIYAA=</HashCode>
+      <FileName>Models\PaymentDispositionNote\PaymentDispositionNoteDetailModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.PaymentDispositionNote.PaymentDispositionNoteItemModel" Collapsed="true">
+    <Position X="51" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACABAgAAQAIEAACUACAAAgAAEJAAAAAJBQA=</HashCode>
+      <FileName>Models\PaymentDispositionNote\PaymentDispositionNoteItemModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.PaymentDispositionNote.PaymentDispositionNoteModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAACBgGAKgAAAQAAAACABAAAQACAALAAAABgAEQ=</HashCode>
+      <FileName>Models\PaymentDispositionNote\PaymentDispositionNoteModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.PurchasingDispositionExpedition.PurchasingDispositionExpeditionItemModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAAQCAAAAAAAAAAAIQAAAgAIBAAAAEwAIIIAA=</HashCode>
+      <FileName>Models\PurchasingDispositionExpedition\PurchasingDispositionExpeditionItemModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Models.PurchasingDispositionExpedition.PurchasingDispositionExpeditionModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAgAiCAigAwAQAEAESEASEEEwCGkJAAAGArBUA=</HashCode>
+      <FileName>Models\PurchasingDispositionExpedition\PurchasingDispositionExpeditionModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.PDFTemplates.PaymentDispositionNotePDFTemplate" Collapsed="true">
+    <Position X="54.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>PDFTemplates\PaymentDispositionNotePDFTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Services.HttpClientService.HttpClientService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Services\HttpClientService\HttpClientService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Services.IdentityService.IdentityService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAABAEA=</HashCode>
+      <FileName>Services\IdentityService\IdentityService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Services.ValidateService.ValidateService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ValidateService\ValidateService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.BaseClass.BaseViewModel" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAQABEAAAAAAAAAAAEAAAAAAAAAgAAAAAQAAAAE=</HashCode>
+      <FileName>Utilities\BaseClass\BaseViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.APIEndpoint" Collapsed="true">
+    <Position X="42.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAiAAACAAEAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Utilities\APIEndpoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.APIInfo" Collapsed="true">
+    <Position X="44" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAFIAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Utilities\APIInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.APIWrapper" Collapsed="true">
+    <Position X="45.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQACAAACA=</HashCode>
+      <FileName>Utilities\APIWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.CodeGenerator" Collapsed="true">
+    <Position X="51" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAEAAAAA=</HashCode>
+      <FileName>Utilities\CodeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.EnumExtensions" Collapsed="true">
+    <Position X="44" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\EnumExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.NotFoundException" Collapsed="true">
+    <Position X="42.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\NotFoundException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.NumberToTextIDN" Collapsed="true">
+    <Position X="45.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEIgIAAABAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Utilities\NumberToTextIDN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.QueryHelper&lt;TModel&gt;" Collapsed="true">
+    <Position X="44" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Utilities\QueryHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.ReadResponse&lt;TModel&gt;" Collapsed="true">
+    <Position X="45.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAI=</HashCode>
+      <FileName>Utilities\ReadResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.ServiceValidationException" Collapsed="true">
+    <Position X="52.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\ServiceValidationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.CreditBalance.CreditBalanceViewModel" Collapsed="true">
+    <Position X="54.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAACIAAAAAACAAAAAAAAIAAAAABAAQ=</HashCode>
+      <FileName>ViewModels\CreditBalance\CreditBalanceViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.CreditorAccount.CreditorAccountBankExpenditureNotePostedViewModel" Collapsed="true">
+    <Position X="1.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>ViewModels\CreditorAccount\CreditorAccountBankExpenditureNotePostedViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.CreditorAccount.CreditorAccountMemoPostedViewModel" Collapsed="true">
+    <Position X="3.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CreditorAccount\CreditorAccountMemoPostedViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.CreditorAccount.CreditorAccountPostedViewModel" Collapsed="true">
+    <Position X="3.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAACACCAAAAAgAAQAgAAAQAQBAIAAAAAAAEA=</HashCode>
+      <FileName>ViewModels\CreditorAccount\CreditorAccountPostedViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.CreditorAccount.CreditorAccountUnitPaymentOrderPostedViewModel" Collapsed="true">
+    <Position X="42.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAQAAAAAIQQAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CreditorAccount\CreditorAccountUnitPaymentOrderPostedViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.CreditorAccount.CreditorAccountUnitReceiptNotePostedViewModel" Collapsed="true">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAECEAAAAAEAAAAAAAAAAQ=</HashCode>
+      <FileName>ViewModels\CreditorAccount\CreditorAccountUnitReceiptNotePostedViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.CreditorAccount.CreditorAccountViewModel" Collapsed="true">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAIAAAAAAQAAAIAAQECEAAQAQBAAAAAAABAAU=</HashCode>
+      <FileName>ViewModels\CreditorAccount\CreditorAccountViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.DailyBankTransaction.DailyBalanceReportViewModel" Collapsed="true">
+    <Position X="47.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAQgAAAAAEAgAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\DailyBankTransaction\DailyBalanceReportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.DailyBankTransaction.DailyBankTransactionViewModel" Collapsed="true">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEAACAAIAAAAAwQAQAAAAEAAABAIAACIAZAQA=</HashCode>
+      <FileName>ViewModels\DailyBankTransaction\DailyBankTransactionViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.AccountBankViewModel" Collapsed="true">
+    <Position X="37" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABMCAAAIAAAEAAgAAAAAAAEAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\AccountBankViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.BuyerViewModel" Collapsed="true">
+    <Position X="54.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\BuyerViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.CategoryViewModel" Collapsed="true">
+    <Position X="37" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\CategoryViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.CurrencyViewModel" Collapsed="true">
+    <Position X="45.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAEAAAAAAAAAAIABAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\CurrencyViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.DivisionViewModel" Collapsed="true">
+    <Position X="40.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\DivisionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.IncomeTaxViewModel" Collapsed="true">
+    <Position X="51" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\IncomeTaxViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.ProductViewModel" Collapsed="true">
+    <Position X="42.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAABAAAQAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\ProductViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.PurchasingDispositionDetailViewModel" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAgAAAAAAAAIAAAAAAACBAAAAAQAACAAAAACEA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\PurchasingDispositionDetailViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.PurchasingDispositionItemViewModel" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkAAAAABAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\PurchasingDispositionItemViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.PurchasingDispositionViewModel" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABQAAAAAAACIAgAAAEAASACEAAAAIAAAAAAAAIAQA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\PurchasingDispositionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.SupplierViewModel" Collapsed="true">
+    <Position X="40.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\SupplierViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.UnitViewModel" Collapsed="true">
+    <Position X="45.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAEAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\UnitViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.IntegrationViewModel.UomViewModel" Collapsed="true">
+    <Position X="49.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\IntegrationViewModel\UomViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.JournalTransaction.GeneralLedgerReportViewModel" Collapsed="true">
+    <Position X="42.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAgAAABAAAAAAAAEAAAAAABAgAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\JournalTransaction\GeneralLedgerReportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.JournalTransaction.GeneralLedgerWrapperReportViewModel" Collapsed="true">
+    <Position X="44" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAAAAACAAAAAAAAAAAAAAAgAAAAAAAEAAAAAA=</HashCode>
+      <FileName>ViewModels\JournalTransaction\GeneralLedgerReportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.JournalTransaction.JournalTransactionItemViewModel" Collapsed="true">
+    <Position X="32.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAGAAAABAAAAAAAAEAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>ViewModels\JournalTransaction\JournalTransactionItemViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.JournalTransaction.JournalTransactionReportViewModel" Collapsed="true">
+    <Position X="44" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAABAAAAAAAAEAAAAAABAAAAEAAAAQA=</HashCode>
+      <FileName>ViewModels\JournalTransaction\JournalTransactionReportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.JournalTransaction.JournalTransactionViewModel" Collapsed="true">
+    <Position X="34.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAUAACgCAAAAAAAAAAAAAAAAAABAAAAAAABAAA=</HashCode>
+      <FileName>ViewModels\JournalTransaction\JournalTransactionViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.JournalTransaction.SubLedgerReportViewModel" Collapsed="true">
+    <Position X="56.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQiAAAAAAAAAAAAAAAAAAAAQAAgAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ViewModels\JournalTransaction\SubLedgerReportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.JournalTransaction.SubLedgerReport" Collapsed="true">
+    <Position X="54.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAIABAAAFAAAAECABBAABIBAAEAAAAQA=</HashCode>
+      <FileName>ViewModels\JournalTransaction\SubLedgerReportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.JournalTransaction.SubLedgerXlsFormat" Collapsed="true">
+    <Position X="37" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\JournalTransaction\SubLedgerReportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.LockTransaction.LockTransactionViewModel" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACgAAAAAAAAAAAAAAAAAACAAQAAAAAACAA=</HashCode>
+      <FileName>ViewModels\LockTransaction\LockTransactionViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.MasterCOA.COAViewModel" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAIAAAggAAQQAAIAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ViewModels\Master\COA\COAViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.AccountBankViewModel" Collapsed="true">
+    <Position X="38.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAAADAgAAAAAABQAAAAAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\AccountBankViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.BuyerViewModel" Collapsed="true">
+    <Position X="56.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\BuyerViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.NewBuyerViewModel" Collapsed="true">
+    <Position X="38.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\BuyerViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.CategoryViewModel" Collapsed="true">
+    <Position X="38.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\CategoryViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.CurrencyViewModel" Collapsed="true">
+    <Position X="44" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\CurrencyViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.DivisionViewModel" Collapsed="true">
+    <Position X="42.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\DivisionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.IncomeTaxViewModel" Collapsed="true">
+    <Position X="49.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\IncomeTaxViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.ProductViewModel" Collapsed="true">
+    <Position X="44" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAEAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\ProductViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.SupplierViewModel" Collapsed="true">
+    <Position X="38.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAKAAgAAQAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\SupplierViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.NewSupplierViewModel" Collapsed="true">
+    <Position X="40.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAACAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\SupplierViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.UnitViewModel" Collapsed="true">
+    <Position X="47.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\UnitViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.NewIntegrationViewModel.UomViewModel" Collapsed="true">
+    <Position X="51" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\NewIntegrationViewModel\UomViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PaymentDispositionNoteViewModel.PaymentDispositionNoteDetailViewModel" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAkAgAAAAAAAAQAQAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\PaymentDispositionNoteViewModel\PaymentDispositionNoteDetailViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PaymentDispositionNoteViewModel.PaymentDispositionNoteItemViewModel" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAAAAAABABQAEAABEAAAAAAAgAAAAAYIIBAAAAA=</HashCode>
+      <FileName>ViewModels\PaymentDispositionNoteViewModel\PaymentDispositionNoteItemViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PaymentDispositionNoteViewModel.PaymentDispositionNoteViewModel" Collapsed="true">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAgGACoAAAQAAAACAAAAAQAAAAAAAAABgAAA=</HashCode>
+      <FileName>ViewModels\PaymentDispositionNoteViewModel\PaymentDispositionNoteViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PaymentDispositionNotVerifiedReportViewModel.PaymentDispositionNotVerifiedReportViewModel" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAEAgAAEIAAACAIBAA=</HashCode>
+      <FileName>ViewModels\PaymentDispositionNotVerifiedReportViewModel\PaymentDispositionNotVerifiedReportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PurchasingDispositionAcceptance.PurchasingDispositionAcceptanceItemViewModel" Collapsed="true">
+    <Position X="45.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ViewModels\PurchasingDispositionAcceptance\PurchasingDispositionAcceptanceItemViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PurchasingDispositionAcceptance.PurchasingDispositionAcceptanceViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\PurchasingDispositionAcceptance\PurchasingDispositionAcceptanceViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PurchasingDispositionExpedition.PurchasingDispositionExpeditionItemViewModel" Collapsed="true">
+    <Position X="27.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAkCgAAAAAAAAQAQAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\PurchasingDispositionExpedition\PurchasingDispositionExpeditionItemViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PurchasingDispositionExpedition.PurchasingDispositionExpeditionViewModel" Collapsed="true">
+    <Position X="30" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBBIAAAACkAQQAEAiJMEAgAQCAgAAAAAcKIhIAkQs=</HashCode>
+      <FileName>ViewModels\PurchasingDispositionExpedition\PurchasingDispositionExpeditionViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PurchasingDispositionReport.PurchasingDispositionResponseViewModel" Collapsed="true">
+    <Position X="40.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQACAAACA=</HashCode>
+      <FileName>ViewModels\PurchasingDispositionReport\PuchasingDispositionResponseViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PurchasingDispositionReport.PurchasingDispositionBaseResponseViewModel" Collapsed="true">
+    <Position X="49.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQAAAAAAA=</HashCode>
+      <FileName>ViewModels\PurchasingDispositionReport\PurchasingDispositionBaseResponseViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PurchasingDispositionReport.PurchasingDispositionReportPostedViewModel" Collapsed="true">
+    <Position X="37" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEAAA=</HashCode>
+      <FileName>ViewModels\PurchasingDispositionReport\PurchasingDispositionReportPostedViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PurchasingDispositionReport.PurchasingDispositionReportViewModel" Collapsed="true">
+    <Position X="38.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAACAwAAAAAASACCAEEQCCEIACACAIAAA=</HashCode>
+      <FileName>ViewModels\PurchasingDispositionReport\PurchasingDispositionReportViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.ViewModels.PurchasingDispositionVerification.PurchasingDispositionVerificationViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAIAAAAAAAAAAAAEAAAAAAAAAAAKAAA=</HashCode>
+      <FileName>ViewModels\PurchasingDispositionVerification\PurchasingDispositionVerificationViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Danliris.Service.Finance.Accounting.Lib.FinanceDbContext" Collapsed="true">
+    <Position X="49.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACACAAAAAAgAQAgAAAAAAAAEgIAYAAQAAAAAQAEAAA=</HashCode>
+      <FileName>FinanceDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Interfaces.CreditBalance.ICreditBalanceService" Collapsed="true">
+    <Position X="37" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\Interfaces\CreditBalance\ICreditBalanceService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Interfaces.CreditorAccount.ICreditorAccountService" Collapsed="true">
+    <Position X="38.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAABIAAAAAAAAAAAAEIAAgAAAAAAAAAQEAAAQBBA=</HashCode>
+      <FileName>BusinessLogic\Interfaces\CreditorAccount\ICreditorAccountService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Interfaces.DailyBankTransaction.IDailyBankTransactionService" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAAAAAAAAAAAAAAAAAAAAQAAAAAAAwAQAAA=</HashCode>
+      <FileName>BusinessLogic\Interfaces\DailyBankTransaction\IDailyBankTransactionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Interfaces.JournalTransaction.IJournalTransactionService" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAhIAAAAAAAAAQAAAAAEAgAAAAAAAAAgICAAAAA=</HashCode>
+      <FileName>BusinessLogic\Interfaces\JournalTransaction\IJournalTransactionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Interfaces.LockTransaction.ILockTransactionService" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\Interfaces\LockTransaction\ILockTransactionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Interfaces.Master.ICOAService" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCAAAAAAABAAAAAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\Interfaces\Master\ICOAService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Interfaces.PaymentDispositionNote.IPaymentDispositionNoteService" Collapsed="true">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\Interfaces\PaymentDispositionNote\IPaymentDispositionNoteService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Interfaces.PaymentDispositionNotVerifiedReport.IPaymentDispositionNotVerifiedReport" Collapsed="true">
+    <Position X="44" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\Interfaces\PaymentDispositionNotVerifiedReport\IPaymentDispositionNotVerifiedReport.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Interfaces.PurchasingDispositionExpedition.IPurchasingDispositionExpeditionService" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAACAAQAAAAAAAAAAAAIAAAAgAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\Interfaces\PurchasingDispositionExpedition\IPurchasingDispositionExpeditionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.Services.BasicUploadCsvService.IBasicUploadCsvService&lt;TViewModel&gt;" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\BasicUploadCsvService\IBasicUploadCsvService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.Services.HttpClientService.IHttpClientService" Collapsed="true">
+    <Position X="40.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Services\HttpClientService\IHttpClientService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.Services.IdentityService.IIdentityService" Collapsed="true">
+    <Position X="42.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAABAEA=</HashCode>
+      <FileName>Services\IdentityService\IIdentityService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.Services.ValidateService.IValidateService" Collapsed="true">
+    <Position X="45.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ValidateService\IValidateService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Com.Danliris.Service.Finance.Accounting.Lib.Utilities.BaseInterface.IBaseService&lt;TModel&gt;" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAgAAAAAAgAAAAAAIAAAIA=</HashCode>
+      <FileName>Utilities\BaseInterface\IBaseService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Com.Danliris.Service.Finance.Accounting.Lib.Enums.Expedition.ExpeditionPosition" Collapsed="true">
+    <Position X="38.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAFAACAAIAAIAAggAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Expedition\ExpeditionPosition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Com.Danliris.Service.Finance.Accounting.Lib.Enums.Master.COACategoryEnum" Collapsed="true">
+    <Position X="37" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASBAAEAAFAYlAAAAAIgwEMiSATkUACIAASApAAIZAA=</HashCode>
+      <FileName>Enums\Master\COACategoryEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

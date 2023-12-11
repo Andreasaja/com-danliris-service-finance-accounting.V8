@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qzH9xnCRSQToEgLIJlwh/F9Dqn6Z0OpOGE0tfd2lSzg=",
+  "Source": "Com.Danliris.Service.Finance.Accounting.WebApi",
+  "BasePath": "_content/Com.Danliris.Service.Finance.Accounting.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

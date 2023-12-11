@@ -1,0 +1,6 @@
+@Com.Danliris.Service.Finance.Accounting.WebApi_HostAddress = http://localhost:5190
+
+GET {{Com.Danliris.Service.Finance.Accounting.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
