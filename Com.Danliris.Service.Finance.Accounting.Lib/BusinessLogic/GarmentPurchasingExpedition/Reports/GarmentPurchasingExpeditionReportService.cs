@@ -112,6 +112,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.GarmentPurch
         {
             //lagi
             //tes comment
+            //git comit
             var query = GetQuery(internalNoteId, supplierId, position, startDate, endDate, startDateAccounting,  endDateAccounting);
             return query.ToList();
         }
