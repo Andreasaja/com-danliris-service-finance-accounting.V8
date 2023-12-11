@@ -110,6 +110,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.GarmentPurch
 
         public List<GarmentPurchasingExpeditionReportViewModel> GetReport(int internalNoteId, int supplierId, GarmentPurchasingExpeditionPosition position, DateTimeOffset startDate, DateTimeOffset endDate, DateTimeOffset startDateAccounting, DateTimeOffset endDateAccounting)
         {
+            //tes comment
             var query = GetQuery(internalNoteId, supplierId, position, startDate, endDate, startDateAccounting,  endDateAccounting);
             return query.ToList();
         }
