@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Com.Danliris.Service.Finance.Accounting.Lib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca381f2bb0438787db7371b9e5abc68461d38e59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+951770bf5dd37afefcf636e84fc136f8ba4aebfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Com.Danliris.Service.Finance.Accounting.Lib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Com.Danliris.Service.Finance.Accounting.Lib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
