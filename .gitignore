@@ -262,7 +262,7 @@ __pycache__/
 
 /.vs
 /.vs\com-danliris-service-finance-accounting.V8\DesignTimeBuild\
-/.vs\com-danliris-service-finance-accounting.V8\v17\
+vs\com-danliris-service-finance-accounting.V8\v17
 /.vscode
 /Com.Danliris.Service.Finance.Accounting.Lib/bin/Debug/net8.0/
 /Com.Danliris.Service.Finance.Accounting.Lib/obj/
