@@ -12,3 +12,4 @@ C:\SOURCE_CODE\.NET 8\com-danliris-service-finance-accounting.V8\Com.Danliris.Se
 C:\SOURCE_CODE\.NET 8\com-danliris-service-finance-accounting.V8\Com.Danliris.Service.Finance.Accounting.Lib\obj\Debug\net8.0\Com.Danliris.Service.Finance.Accounting.Lib.pdb
 C:\SOURCE_CODE\.NET 8\com-danliris-service-finance-accounting.V8\Com.Danliris.Service.Finance.Accounting.Lib\obj\Debug\net8.0\Com.Danliris.Service.Finance.Accounting.Lib.genruntimeconfig.cache
 C:\SOURCE_CODE\.NET 8\com-danliris-service-finance-accounting.V8\Com.Danliris.Service.Finance.Accounting.Lib\obj\Debug\net8.0\ref\Com.Danliris.Service.Finance.Accounting.Lib.dll
+C:\SOURCE_CODE\.NET 8\com-danliris-service-finance-accounting.V8\Com.Danliris.Service.Finance.Accounting.Lib\obj\Debug\net8.0\Com.Danliris.Service.Finance.Accounting.Lib.sourcelink.json

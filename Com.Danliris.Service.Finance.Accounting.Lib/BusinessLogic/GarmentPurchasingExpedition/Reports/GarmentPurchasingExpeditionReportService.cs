@@ -135,38 +135,38 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.GarmentPurch
             {
                 case GarmentPurchasingExpeditionPosition.Purchasing:
                     //result = result.Where(entity => entity.SendToPurchasingDate.GetValueOrDefault() >= startDate && entity.SendToPurchasingDate.GetValueOrDefault() <= endDate);
-                    result = result.Where(entity => entity.SendToPurchasingDate.Value.AddHours(7) >= startDate && entity.SendToPurchasingDate.Value.AddHours(7) <= endDate);
+                    result = result.Where(entity => (entity.SendToPurchasingDate == null ? DateTimeOffset.MinValue : entity.SendToPurchasingDate) >= startDate && (entity.SendToPurchasingDate == null ? DateTimeOffset.MinValue : entity.SendToPurchasingDate) <= endDate);
 
                     break;
                 case GarmentPurchasingExpeditionPosition.SendToVerification:
                     //result = result.Where(entity => entity.SendToVerificationDate.GetValueOrDefault() >= startDate && entity.SendToVerificationDate.GetValueOrDefault() <= endDate);
-                    result = result.Where(entity => entity.SendToVerificationDate.Value.AddHours(7) >= startDate && entity.SendToVerificationDate.Value.AddHours(7) <= endDate);
+                    result = result.Where(entity => (entity.SendToVerificationDate == null ? DateTimeOffset.MinValue : entity.SendToVerificationDate) >= startDate && (entity.SendToVerificationDate == null ? DateTimeOffset.MinValue : entity.SendToVerificationDate) <= endDate);
 
                     break;
                 case GarmentPurchasingExpeditionPosition.VerificationAccepted:
                     //result = result.Where(entity => entity.SendToCashierDate.GetValueOrDefault() >= startDate && entity.SendToCashierDate.GetValueOrDefault() <= endDate);
-                    result = result.Where(entity => entity.SendToCashierDate.Value.AddHours(7) >= startDate && entity.SendToCashierDate.Value.AddHours(7) <= endDate);
+                    result = result.Where(entity => (entity.SendToCashierDate == null ? DateTimeOffset.MinValue : entity.SendToCashierDate) >= startDate && (entity.SendToCashierDate == null ? DateTimeOffset.MinValue : entity.SendToCashierDate) <= endDate);
 
                     break;
                 case GarmentPurchasingExpeditionPosition.SendToCashier:
                     //result = result.Where(entity => entity.SendToCashierDate.GetValueOrDefault() >= startDate && entity.SendToCashierDate.GetValueOrDefault() <= endDate);
-                    result = result.Where(entity => entity.SendToCashierDate.Value.AddHours(7) >= startDate && entity.SendToCashierDate.Value.AddHours(7) <= endDate);
+                    result = result.Where(entity => (entity.SendToCashierDate == null ? DateTimeOffset.MinValue : entity.SendToCashierDate ) >= startDate && (entity.SendToCashierDate == null ? DateTimeOffset.MinValue : entity.SendToCashierDate) <= endDate);
 
                     break;
                 case GarmentPurchasingExpeditionPosition.CashierAccepted:
                     //result = result.Where(entity => entity.CashierAcceptedDate.GetValueOrDefault() >= startDate && entity.CashierAcceptedDate.GetValueOrDefault() <= endDate);
-                    result = result.Where(entity => entity.CashierAcceptedDate.Value.AddHours(7) >= startDate && entity.CashierAcceptedDate.Value.AddHours(7) <= endDate);
+                    result = result.Where(entity => (entity.CashierAcceptedDate == null ? DateTimeOffset.MinValue : entity.CashierAcceptedDate) >= startDate && (entity.CashierAcceptedDate == null ? DateTimeOffset.MinValue : entity.CashierAcceptedDate) <= endDate);
 
                     break;
                 case GarmentPurchasingExpeditionPosition.AccountingAccepted:
                     //result = result.Where(entity => entity.AccountingAcceptedDate.GetValueOrDefault() >= startDate && entity.AccountingAcceptedDate.GetValueOrDefault() <= endDate);
-                    result = result.Where(entity => entity.AccountingAcceptedDate.Value.AddHours(7) >= startDate && entity.AccountingAcceptedDate.Value.AddHours(7) <= endDate);
+                    result = result.Where(entity => (entity.AccountingAcceptedDate == null ? DateTimeOffset.MinValue : entity.AccountingAcceptedDate) >= startDate && (entity.AccountingAcceptedDate == null ? DateTimeOffset.MinValue : entity.AccountingAcceptedDate) <= endDate);
 
                     break;
                 default:
                     //result = result.Where(entity => entity.SendToVerificationDate.GetValueOrDefault() >= startDate && entity.SendToVerificationDate.GetValueOrDefault() <= endDate);
 
-                   // result = result.Where(entity => entity.SendToVerificationDate.GetValueOrDefault() >= startDate && entity.SendToVerificationDate.GetValueOrDefault() <= endDate);
+                    //result = result.Where(entity => entity.SendToVerificationDate.GetValueOrDefault() >= startDate && entity.SendToVerificationDate.GetValueOrDefault() <= endDate);
                     result = result.Where(entity => (entity.SendToVerificationDate == null ? DateTimeOffset.MinValue : entity.SendToVerificationDate) >= startDate && (entity.SendToVerificationDate == null ? DateTimeOffset.MinValue : entity.SendToVerificationDate) <= endDate);
 
                     break;
