@@ -237,7 +237,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.GarmentPurch
                             BankExpenditureNoteDate = a.CashierAcceptedDate != null ? c.Date : (DateTimeOffset?)null
 
                         };
-        //komen selasa tiga
+        //komen selasa empat
 
             return query;
         }
