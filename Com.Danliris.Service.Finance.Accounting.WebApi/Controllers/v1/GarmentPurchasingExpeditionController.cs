@@ -487,7 +487,7 @@ namespace Com.Danliris.Service.Finance.Accounting.WebApi.Controllers.v1
         [HttpGet("report")]
         public IActionResult GetReport(int internalNoteId, int supplierId, GarmentPurchasingExpeditionPosition position, DateTimeOffset? startDate, DateTimeOffset? endDate, DateTimeOffset? startDateAccounting, DateTimeOffset? endDateAccounting)
         {
-            //proses
+            //sudah
             try
             {
                 VerifyUser();
@@ -515,16 +515,22 @@ namespace Com.Danliris.Service.Finance.Accounting.WebApi.Controllers.v1
         [HttpGet("report/xls")]
         public IActionResult GetReportXls(int internalNoteId, int supplierId, GarmentPurchasingExpeditionPosition position, DateTimeOffset? startDate, DateTimeOffset? endDate, DateTimeOffset? startDateAccounting, DateTimeOffset? endDateAccounting)
         {
+            //proses
             try
             {
                 VerifyUser();
                 endDate = !endDate.HasValue ? DateTimeOffset.Now : endDate.GetValueOrDefault().AddHours(_identityService.TimezoneOffset).Date.AddHours(17);
                 startDate = !startDate.HasValue ? DateTimeOffset.MinValue : startDate;
 
+
                 endDateAccounting = !endDateAccounting.HasValue ? DateTimeOffset.Now : endDateAccounting.GetValueOrDefault().AddHours(_identityService.TimezoneOffset).Date.AddHours(17);
                 startDateAccounting = !startDateAccounting.HasValue ? DateTimeOffset.MinValue : startDateAccounting;
 
                 var stream = _reportService.GenerateExcel(internalNoteId, supplierId, position, startDate.GetValueOrDefault(), endDate.GetValueOrDefault(), startDateAccounting.GetValueOrDefault(), endDateAccounting.GetValueOrDefault());
+                //var stream = _reportService.GenerateExcel(internalNoteId, supplierId, position, !startDate.HasValue ? DateTimeOffset.MinValue : startDate, endDate.Value.AddDays(7), startDateAccounting.Value.AddDays(7), endDateAccounting.Value.AddDays(7));
+
+                //var stream = _reportService.GenerateExcel(internalNoteId, supplierId, position, (startDate == null ? DateTimeOffset.MinValue : startDate), endDate.GetValueOrDefault(), startDateAccounting.GetValueOrDefault(), endDateAccounting.GetValueOrDefault());
+                //(entity.SendToAccountingDate == null ? DateTimeOffset.MinValue : entity.SendToAccountingDate)
 
                 var bytes = stream.ToArray();
                 var filename = "Laporan Ekspedisi Garment.xlsx";

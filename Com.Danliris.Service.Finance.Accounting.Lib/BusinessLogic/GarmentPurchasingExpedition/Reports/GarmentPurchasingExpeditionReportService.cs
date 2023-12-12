@@ -68,7 +68,8 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.GarmentPurch
             }
             else
             {
-                var queryViewModel = query;
+                //var queryViewModel = query; to var queryViewModel = query.ToList();
+                var queryViewModel = query.ToList();
                 var data = queryViewModel.OrderByDescending(s => s.LastModifiedUtc).ToList();
                 foreach (var item in data)
                 {
@@ -237,7 +238,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.GarmentPurch
                             BankExpenditureNoteDate = a.CashierAcceptedDate != null ? c.Date : (DateTimeOffset?)null
 
                         };
-        //komen selasa empat
+        //komen selasa empat lg
 
             return query;
         }
