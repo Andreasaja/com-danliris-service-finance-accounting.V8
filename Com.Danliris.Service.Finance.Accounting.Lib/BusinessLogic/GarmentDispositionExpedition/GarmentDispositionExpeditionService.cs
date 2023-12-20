@@ -33,20 +33,26 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.GarmentDispo
 
         public ReadResponse<IndexDto> GetSendToVerificationOrAccounting(string keyword, int page, int size, string order)
         {
-            var query = _dbContext.GarmentDispositionExpeditions.Where(entity => entity.Position == GarmentPurchasingExpeditionPosition.SendToVerification || entity.Position == GarmentPurchasingExpeditionPosition.SendToAccounting);
+            var query = _dbContext.GarmentDispositionExpeditions.ToList().Where(entity => entity.Position == GarmentPurchasingExpeditionPosition.SendToVerification || entity.Position == GarmentPurchasingExpeditionPosition.SendToAccounting);
 
+            //aktfjan ini jk sdh gnti menu/cntroler
             var dispositionPurchases = GetGarmentDispostionPurchase().Result;
 
+            //utk ujcb selama menggunakan controller ini, karna menggunakan service lain yg hrs jln
+            //var dispositionPurchases = new List<DispositionPurchaseIndexDto>();
+
+            //var query1= query;
             query = from a in query
-                    join b in dispositionPurchases on a.DispositionNoteId equals b.Id 
+                        join b in dispositionPurchases on a.DispositionNoteId equals b.Id 
                     select new GarmentDispositionExpeditionModel(a.Id, a.DispositionNoteNo, a.DispositionNoteDate, a.DispositionNoteDueDate, a.DispositionNoteId, a.CurrencyTotalPaid, a.TotalPaid, a.CurrencyId, a.CurrencyCode, a.SupplierName, a.Remark, a.ProformaNo, b.CreatedBy, a.CurrencyRate, a.SupplierId, a.SupplierCode, a.VATAmount, a.CurrencyVATAmount, a.IncomeTaxAmount, a.CurrencyIncomeTaxAmount, a.DPPAmount, a.CurrencyDPPAmount, a.VerifiedDateSend, a.VerifiedDateReceived, a.SendToPurchasingRemark, a.CreatedUtc);
 
             if (!string.IsNullOrWhiteSpace(keyword))
                 query = query.Where(entity => entity.DispositionNoteNo.Contains(keyword) || entity.SupplierName.Contains(keyword) || entity.CurrencyCode.Contains(keyword));
 
-            var orderDictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(order);
-            query = QueryHelper<GarmentDispositionExpeditionModel>.Order(query, orderDictionary);
 
+            var orderDictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(order);
+            //query = QueryHelper<GarmentDispositionExpeditionModel>.Order(query, orderDictionary);
+            query.OrderByDescending(x => x.LastModifiedUtc);
             var count = query.Count();
 
             var data = query

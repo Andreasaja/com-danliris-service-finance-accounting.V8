@@ -96,14 +96,14 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentDispositionE
 
         public int DispositionNoteId { get; private set; }
         [MaxLength(64)]
-        public string DispositionNoteNo { get; private set; }
+        public string? DispositionNoteNo { get; private set; }
         public DateTimeOffset DispositionNoteDate { get; private set; }
         public DateTimeOffset DispositionNoteDueDate { get; private set; }
         public int SupplierId { get; private set; }
         [MaxLength(512)]
-        public string SupplierName { get; private set; }
+        public string? SupplierName { get; private set; }
         [MaxLength(128)]
-        public string SupplierCode { get; private set; }
+        public string? SupplierCode { get; private set; }
         public double DPPAmount { get; private set; }
         public double CurrencyDPPAmount { get; private set; }
         public double VATAmount { get; private set; }
@@ -114,40 +114,40 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentDispositionE
         public double CurrencyTotalPaid { get; private set; }
         public int CurrencyId { get; private set; }
         [MaxLength(16)]
-        public string CurrencyCode { get; private set; }
+        public string? CurrencyCode { get; private set; }
         public double CurrencyRate { get; private set; }
-        public string Remark { get; private set; }
-        public string ProformaNo { get; set; }
+        public string? Remark { get; private set; }
+        public string? ProformaNo { get; set; }
         public GarmentPurchasingExpeditionPosition Position { get; private set; }
 
         public DateTimeOffset? SendToVerificationDate { get; private set; }
         [MaxLength(64)]
-        public string SendToVerificationBy { get; private set; }
+        public string? SendToVerificationBy { get; private set; }
 
         public DateTimeOffset? VerificationAcceptedDate { get; private set; }
         [MaxLength(64)]
-        public string VerificationAcceptedBy { get; private set; }
+        public string? VerificationAcceptedBy { get; private set; }
 
         public DateTimeOffset? SendToCashierDate { get; private set; }
         [MaxLength(64)]
-        public string SendToCashierBy { get; private set; }
+        public string? SendToCashierBy { get; private set; }
 
         public DateTimeOffset? CashierAcceptedDate { get; private set; }
         [MaxLength(64)]
-        public string CashierAcceptedBy { get; private set; }
+        public string? CashierAcceptedBy { get; private set; }
 
         public DateTimeOffset? SendToPurchasingDate { get; private set; }
         [MaxLength(64)]
-        public string SendToPurchasingBy { get; private set; }
-        public string SendToPurchasingRemark { get; private set; }
+        public string? SendToPurchasingBy { get; private set; }
+        public string? SendToPurchasingRemark { get; private set; }
 
         public DateTimeOffset? SendToAccountingDate { get; private set; }
         [MaxLength(64)]
-        public string SendToAccountingBy { get; private set; }
+        public string? SendToAccountingBy { get; private set; }
 
         public DateTimeOffset? AccountingAcceptedDate { get; private set; }
         [MaxLength(64)]
-        public string AccountingAcceptedBy { get; private set; }
+        public string? AccountingAcceptedBy { get; private set; }
         /// <summary>
         /// Tanggal pembelian Kirim
         /// </summary>
@@ -157,13 +157,13 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentDispositionE
         /// </summary>
         public DateTimeOffset VerifiedDateReceived { get; private set; }
         [MaxLength(64)]
-        public string VerifiedBy { get; private set; }
+        public string? VerifiedBy { get; private set; }
         public DateTimeOffset? VerifiedDate { get; private set; }
 
         public bool IsPaid { get; set; }
-        public string BankExpenditureNoteNo { get; set; }
+        public string? BankExpenditureNoteNo { get; set; }
         public DateTimeOffset BankExpenditureNoteDate { get; set; }
-        public string Category { get; set; }
+        public string? Category { get; set; }
 
         public void SendToVerification(string username)
         {

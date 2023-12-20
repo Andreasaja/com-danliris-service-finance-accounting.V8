@@ -35,28 +35,28 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.DPPVATBankExpenditu
         }
 
         [MaxLength(32)]
-        public string DocumentNo { get; private set; }
+        public string? DocumentNo { get; private set; }
         public int BankAccountId { get; private set; }
         [MaxLength(64)]
-        public string BankAccountNumber { get; private set; }
+        public string? BankAccountNumber { get; private set; }
         [MaxLength(256)]
-        public string BankName { get; private set; }
+        public string? BankName { get; private set; }
         [MaxLength(32)]
-        public string BankAccountingCode { get; private set; }
+        public string? BankAccountingCode { get; private set; }
         [MaxLength(32)]
-        public string BankCurrencyCode { get; private set; }
+        public string? BankCurrencyCode { get; private set; }
         public int BankCurrencyId { get; private set; }
         public double BankCurrencyRate { get; private set; }
         public int CurrencyId { get; private set; }
         [MaxLength(32)]
-        public string CurrencyCode { get; private set; }
+        public string? CurrencyCode { get; private set; }
         public double CurrencyRate { get; private set; }
         public int SupplierId { get; private set; }
         [MaxLength(1024)]
-        public string SupplierName { get; private set; }
+        public string? SupplierName { get; private set; }
         public bool IsImportSupplier { get; private set; }
         [MaxLength(256)]
-        public string BGCheckNo { get; private set; }
+        public string? BGCheckNo { get; private set; }
         public double Amount { get; private set; }
         public DateTimeOffset Date { get; private set; }
         public bool IsPosted { get; private set; }

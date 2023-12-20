@@ -72,6 +72,7 @@ namespace Com.Danliris.Service.Finance.Accounting.WebApi.Controllers.v1
         [HttpGet]
         public IActionResult Get([FromQuery] string keyword, [FromQuery] int page = 1, [FromQuery] int size = 10, [FromQuery] string order = "{}")
         {
+            //proses
             try
             {
                 var result = _service.Read(keyword, page, size, order);

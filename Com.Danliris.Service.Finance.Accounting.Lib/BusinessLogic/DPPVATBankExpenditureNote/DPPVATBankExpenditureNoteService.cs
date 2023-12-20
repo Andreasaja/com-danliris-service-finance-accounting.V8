@@ -357,15 +357,32 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.DPPVATBankEx
             if (supplierId > 0)
                 itemQuery = itemQuery.Where(entity => entity.SupplierId == supplierId); ;
 
-            query = query.Where(entity => entity.Date.ToOffset(offset) >= startDate.ToOffset(offset) && entity.Date.ToOffset(offset) <= endDate.ToOffset(offset));
+            //query = query.Where(entity => entity.Date.ToOffset(offset) >= startDate.ToOffset(offset) && entity.Date.ToOffset(offset) <= endDate.ToOffset(offset));
+            query = query.Where(entity => entity.Date >= startDate && entity.Date <= endDate);
 
+            //tmbh ini
+            var queryViewModel = query.ToList();
+            //------
+            //
+            //var queryViewModel = query.ToList();
+            //var data = queryViewModel.OrderByDescending(s => s.LastModifiedUtc).ToList();
+            //foreach (var item in data)
+            //{
+            //};
+            //=----
 
-            var reportQuery = from detail in detailQuery 
-                              join item in itemQuery on detail.DPPVATBankExpenditureNoteItemId equals item.Id into itemDetails
+            //                var reportQuery = from detail in detailQuery
+            //                              join item in itemQuery on detail.DPPVATBankExpenditureNoteItemId equals item.Id into itemDetails
+
+            var reportQuery = from detail in detailQuery.ToList() 
+                              join item in itemQuery.ToList() on detail.DPPVATBankExpenditureNoteItemId equals item.Id into itemDetails
                               from itemDetail in itemDetails
 
-                              join document in query on itemDetail.DPPVATBankExpenditureNoteId equals document.Id into documentItems
-                              from documentItem in documentItems
+                                  //join document in query on itemDetail.DPPVATBankExpenditureNoteId equals document.Id into documentItems
+                                  
+                                  join document in queryViewModel on itemDetail.DPPVATBankExpenditureNoteId equals document.Id into documentItems
+
+                                  from documentItem in documentItems
 
                               select new ReportDto(detail, itemDetail, documentItem, detail.DPPVATBankExpenditureNoteDetailDos.Select(s=> new ReportDoDetailDto(s.DONo,s.DOId,s.PaymentBill,s.BillNo,s.TotalAmount,s.CurrencyRate)).ToList());
 
