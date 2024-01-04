@@ -37,29 +37,29 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentDebtBalance
 
         public int PurchasingCategoryId { get; private set; }
         [MaxLength(64)]
-        public string PurchasingCategoryName { get; private set; }
+        public string? PurchasingCategoryName { get; private set; }
         [MaxLength(256)]
-        public string BillsNo { get; private set; }
+        public string? BillsNo { get; private set; }
         [MaxLength(256)]
-        public string PaymentBills { get; private set; }
+        public string? PaymentBills { get; private set; }
         public int GarmentDeliveryOrderId { get; private set; }
         [MaxLength(64)]
-        public string GarmentDeliveryOrderNo { get; private set; }
+        public string? GarmentDeliveryOrderNo { get; private set; }
         public int SupplierId { get; private set; }
         [MaxLength(256)]
-        public string SupplierCode { get; private set; }
+        public string? SupplierCode { get; private set; }
         [MaxLength(512)]
-        public string SupplierName { get; private set; }
+        public string? SupplierName { get; private set; }
         public bool SupplierIsImport { get; private set; }
         public int CurrencyId { get; private set; }
         [MaxLength(32)]
-        public string CurrencyCode { get; private set; }
+        public string? CurrencyCode { get; private set; }
         public double CurrencyRate { get; private set; }
 
         public int InvoiceId { get; private set; }
         public DateTimeOffset InvoiceDate { get; private set; }
         [MaxLength(64)]
-        public string InvoiceNo { get; private set; }
+        public string? InvoiceNo { get; private set; }
         public double DPPAmount { get; private set; }
         public double CurrencyDPPAmount { get; private set; }
         public double VATAmount { get; private set; }
@@ -69,22 +69,22 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentDebtBalance
         public bool IsPayVAT { get; private set; }
         public bool IsPayIncomeTax { get; private set; }
         [MaxLength(128)]
-        public string VATNo { get; private set; }
+        public string? VATNo { get; private set; }
         public int InternalNoteId { get; private set; }
         [MaxLength(64)]
-        public string InternalNoteNo { get; private set; }
+        public string? InternalNoteNo { get; private set; }
 
-        public int BankExpenditureNoteId { get; private set; }
+        public int? BankExpenditureNoteId { get; private set; }
         [MaxLength(64)]
-        public string BankExpenditureNoteNo { get; private set; }
+        public string? BankExpenditureNoteNo { get; private set; }
         public double BankExpenditureNoteInvoiceAmount { get; private set; }
         public double CurrencyBankExpenditureNoteInvoiceAmount { get; private set; }
-        public string ProductNames { get; private set; }
+        public string? ProductNames { get; private set; }
         public DateTimeOffset ArrivalDate { get; private set; }
         [MaxLength(128)]
-        public string PaymentType { get; private set; }
-        public int MemoDetailId { get; set; }
-        public string MemoNo { get; set; }
+        public string? PaymentType { get; private set; }
+        public int? MemoDetailId { get; set; }
+        public string? MemoNo { get; set; }
         public double MemoAmount { get; set; }
         public double PaymentRate { get; set; }
 

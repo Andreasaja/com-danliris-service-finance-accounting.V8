@@ -47,9 +47,15 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.GarmentDebtB
 
             //get last balance
             var queryGetAllSaldoBefore = _dbContext.GarmentDebtBalances.Where(s => s.ArrivalDate.Month < month && s.ArrivalDate.Year < year).OrderByDescending(s => s.ArrivalDate).Select(s => new GarmentDebtBalance.GarmentDebtBalanceCardDto(s)).AsQueryable();
-            var lastMonthAndYearSaldo = queryGetAllSaldoBefore.Select(s => s.ArrivalDate).FirstOrDefault();
+
+            //ini tmbahan
+            //berhasil,variable yg berakhiran AsQueryable, hrs di Tolistkan dgn varibale baru(queryGetAllSaldoBeforeList) jk ingin di gunakan lg
+            var queryGetAllSaldoBeforeList = queryGetAllSaldoBefore.ToList();
+            //---------------
+
+            var lastMonthAndYearSaldo = queryGetAllSaldoBeforeList.Select(s => s.ArrivalDate).FirstOrDefault();
             //filter by last saldo year and month
-            var querySaldoBefore = queryGetAllSaldoBefore.Where(s => s.ArrivalDate.Month < month && s.ArrivalDate.Year < year).OrderByDescending(s => s.ArrivalDate).ToList();
+            var querySaldoBefore = queryGetAllSaldoBeforeList.Where(s => s.ArrivalDate.Month < month && s.ArrivalDate.Year < year).OrderByDescending(s => s.ArrivalDate).ToList();
 
             var getLastQueryBefore = querySaldoBefore.FirstOrDefault();
             //var lastBalance = getLastQueryBefore == null ? 0 : getLastQueryBefore.RemainBalance;
@@ -82,10 +88,18 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.GarmentDebtB
 
             //get last balance
             var queryGetAllSaldoBefore = _dbContext.GarmentDebtBalances.Where(s => s.ArrivalDate.Month < month && s.ArrivalDate.Year <= year && s.SupplierId == supplierId).OrderBy(s => s.ArrivalDate).Select(s => new GarmentDebtBalance.GarmentDebtBalanceCardDto(s)).AsQueryable();
-            var lastMonthAndYearSaldo = queryGetAllSaldoBefore.Select(s => s.ArrivalDate).FirstOrDefault();
-            //filter by last saldo year and month
-            var querySaldoBefore = queryGetAllSaldoBefore.Where(s => s.ArrivalDate.Month < month && s.ArrivalDate.Year <= year && s.SupplierId == supplierId).OrderBy(s => s.ArrivalDate).ToList();
 
+            //ini tmbahan
+            //berhasil,variable yg berakhiran AsQueryable, hrs di Tolistkan dgn varibale baru(queryGetAllSaldoBeforeList) jk ingin di gunakan lg
+            var queryGetAllSaldoBeforeList = queryGetAllSaldoBefore.ToList();
+            //---------------
+            
+            var lastMonthAndYearSaldo = queryGetAllSaldoBeforeList.Select(s => s.ArrivalDate).FirstOrDefault();
+            //filter by last saldo year and month
+            var querySaldoBefore = queryGetAllSaldoBeforeList.Where(s => s.ArrivalDate.Month < month && s.ArrivalDate.Year <= year && s.SupplierId == supplierId).OrderBy(s => s.ArrivalDate).ToList();
+
+
+            //blm bs masuk di bawah ini, dan eror null
             var getLastQueryBefore = querySaldoBefore.FirstOrDefault();
             var lastBalance = getLastQueryBefore == null ? 0 : querySaldoBefore.Sum(s=> s.TotalInvoice);
             var lastBalanceAdd = lastBalance;
