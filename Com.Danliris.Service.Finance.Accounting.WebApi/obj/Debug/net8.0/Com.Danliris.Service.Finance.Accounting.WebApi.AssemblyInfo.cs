@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Com.Danliris.Service.Finance.Accounting.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e74705ba87313b687b8c1705c7cc665f31dba11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5906e5b4bcabab3098369f624e9fb3905e48a330")]
 [assembly: System.Reflection.AssemblyProductAttribute("Com.Danliris.Service.Finance.Accounting.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Com.Danliris.Service.Finance.Accounting.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
