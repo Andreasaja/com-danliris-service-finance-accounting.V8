@@ -9,24 +9,24 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.PurchasingDispositi
 {
     public class PurchasingDispositionExpeditionItemModel : StandardEntity, IValidatableObject
     {
-        public string EPOId { get; set; }
-        public string EPONo { get; set; }
+        public string? EPOId { get; set; }
+        public string? EPONo { get; set; }
         public double Price { get; set; }
         [MaxLength(50)]
-        public string ProductId { get; set; }
+        public string? ProductId { get; set; }
         [MaxLength(255)]
-        public string ProductCode { get; set; }
+        public string? ProductCode { get; set; }
         [MaxLength(255)]
-        public string ProductName { get; set; }
+        public string? ProductName { get; set; }
         public double Quantity { get; set; }
         [MaxLength(50)]
-        public string UnitId { get; set; }
+        public string? UnitId { get; set; }
         [MaxLength(255)]
-        public string UnitCode { get; set; }
+        public string? UnitCode { get; set; }
         [MaxLength(255)]
-        public string UnitName { get; set; }
-        public string UomId { get; set; }
-        public string UomUnit { get; set; }
+        public string? UnitName { get; set; }
+        public string? UomId { get; set; }
+        public string? UomUnit { get; set; }
         public int PurchasingDispositionDetailId { get; set; }
         public virtual int PurchasingDispositionExpeditionId { get; set; }
         [ForeignKey("PurchasingDispositionExpeditionId")]

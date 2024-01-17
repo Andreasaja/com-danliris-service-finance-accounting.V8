@@ -15,17 +15,17 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentFinance.Memo
 
         public int LocalSalesNoteId { get; set; }
         [MaxLength(20)]
-        public string LocalSalesNoteNo { get; set; }
+        public string? LocalSalesNoteNo { get; set; }
 
         public int BuyerId { get; set; }
         [MaxLength(225)]
-        public string BuyerName { get; set; }
+        public string? BuyerName { get; set; }
         [MaxLength(20)]
-        public string BuyerCode { get; set; }
+        public string? BuyerCode { get; set; }
 
         public int CurrencyId { get; set; }
         [MaxLength(20)]
-        public string CurrencyCode { get; set; }
+        public string? CurrencyCode { get; set; }
         public double CurrencyRate { get; set; }
 
         public decimal Amount { get; set; }

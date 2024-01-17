@@ -25,7 +25,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.PurchasingMemoDetai
 
         public int DispositionId { get; private set; }
         [MaxLength(64)]
-        public string DispositionNo { get; private set; }
+        public string? DispositionNo { get; private set; }
         public DateTimeOffset DispositionDate { get; private set; }
         public int PurchasingMemoDetailTextileId { get; private set; }
     }

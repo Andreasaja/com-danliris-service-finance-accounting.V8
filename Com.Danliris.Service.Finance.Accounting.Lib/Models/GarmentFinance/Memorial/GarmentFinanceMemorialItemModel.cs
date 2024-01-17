@@ -14,9 +14,9 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentFinance.Memo
         public virtual GarmentFinanceMemorialModel GarmentFinanceMemorialModel { get; set; }
         public int COAId { get; set; }
         [MaxLength(20)]
-        public string COACode { get; set; }
+        public string? COACode { get; set; }
         [MaxLength(100)]
-        public string COAName { get; set; }
+        public string? COAName { get; set; }
         public double Debit { get; set; }
         public double Credit { get; set; }
     }

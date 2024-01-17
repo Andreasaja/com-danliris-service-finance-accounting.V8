@@ -27,8 +27,8 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.PurchasingMemoTexti
         }
 
         public int ChartOfAccountId { get; private set; }
-        public string ChartOfAccountCode { get; private set; }
-        public string ChartOfAccountName { get; private set; }
+        public string? ChartOfAccountCode { get; private set; }
+        public string? ChartOfAccountName { get; private set; }
         public double DebitAmount { get; private set; }
         public double CreditAmount { get; private set; }
         public int PurchasingMemoTextileId { get; private set; }

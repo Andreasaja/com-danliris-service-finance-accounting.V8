@@ -39,17 +39,17 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.PurchasingMemoDetai
         public int PurchasingMemoDetailTextileItemId { get; private set; }
         public int ExpenditureId { get; private set; }
         [MaxLength(64)]
-        public string ExpenditureNo { get; private set; }
+        public string? ExpenditureNo { get; private set; }
         public DateTimeOffset ExpenditureDate { get; private set; }
         public int SupplierId { get; private set; }
         [MaxLength(64)]
-        public string SupplierCode { get; private set; }
+        public string? SupplierCode { get; private set; }
         [MaxLength(512)]
-        public string SupplierName { get; private set; }
-        public string Remark { get; private set; }
+        public string? SupplierName { get; private set; }
+        public string? Remark { get; private set; }
         public int UnitPaymentOrderId { get; private set; }
         [MaxLength(64)]
-        public string UnitPaymentOrderNo { get; private set; }
+        public string? UnitPaymentOrderNo { get; private set; }
         public DateTimeOffset UnitPaymentOrderDate { get; private set; }
         public double PurchaseAmountCurrency { get; private set; }
         public double PurchaseAmount { get; private set; }

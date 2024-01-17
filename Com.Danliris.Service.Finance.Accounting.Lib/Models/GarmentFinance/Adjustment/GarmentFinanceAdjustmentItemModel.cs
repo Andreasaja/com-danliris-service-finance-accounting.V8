@@ -14,9 +14,9 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentFinance.Adju
         [MaxLength(20)]
         public string COACode { get; set; }
         [MaxLength(100)]
-        public string COAName { get; set; }
+        public string? COAName { get; set; }
         [MaxLength(255)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
         public double Debit { get; set; }
         public double Credit { get; set; }
 

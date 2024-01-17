@@ -14,26 +14,26 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.PaymentDispositionN
         public virtual PaymentDispositionNoteModel PaymentDispositionNote { get; set; }
         public int DivisionId { get; set; }
         [MaxLength(255)]
-        public string DivisionCode { get; set; }
+        public string? DivisionCode { get; set; }
         [MaxLength(500)]
-        public string DivisionName { get; set; }
+        public string? DivisionName { get; set; }
         [MaxLength(255)]
-        public string ProformaNo { get; set; }
+        public string? ProformaNo { get; set; }
         public double TotalPaid { get; set; }
         public DateTimeOffset DispositionDate { get; set; }
         public DateTimeOffset PaymentDueDate { get; set; }
         public int DispositionId { get; set; }
         public int PurchasingDispositionExpeditionId { get; set; }
         [MaxLength(255)]
-        public string DispositionNo { get; set; }
+        public string? DispositionNo { get; set; }
         public double DPP { get; set; }
         public double VatValue { get; set; }
         public double IncomeTaxValue { get; set; }
         public int CategoryId { get; set; }
         [MaxLength(255)]
-        public string CategoryCode { get; set; }
+        public string? CategoryCode { get; set; }
         [MaxLength(1000)]
-        public string CategoryName { get; set; }
+        public string? CategoryName { get; set; }
         public double PayToSupplier { get; set; }
         public double AmountPaid { get; set; }
         public double SupplierPayment { get; set; }

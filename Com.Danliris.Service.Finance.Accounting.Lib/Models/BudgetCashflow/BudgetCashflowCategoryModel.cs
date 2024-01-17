@@ -22,7 +22,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.BudgetCashflow
         }
 
         [MaxLength(512)]
-        public string Name { get; private set; }
+        public string? Name { get; private set; }
         public int CashflowTypeId { get; private set; }
         public int LayoutOrder { get; private set; }
         public CashType Type { get; private set; }

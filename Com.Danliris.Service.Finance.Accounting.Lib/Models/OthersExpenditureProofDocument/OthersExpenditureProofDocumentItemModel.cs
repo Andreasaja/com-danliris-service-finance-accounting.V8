@@ -7,7 +7,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.OthersExpenditurePr
     {
         public int COAId { get; set; }
         public decimal Debit { get; set; }
-        public string Remark { get; set; }
+        public string? Remark { get; set; }
         public int OthersExpenditureProofDocumentId { get; set; }
         [NotMapped]
         public bool IsUpdated { get; set; }

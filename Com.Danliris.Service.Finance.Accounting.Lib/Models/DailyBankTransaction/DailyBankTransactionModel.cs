@@ -12,71 +12,71 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.DailyBankTransactio
         //[MaxLength(50)]
         public int AccountBankId { get; set; }
         [MaxLength(25)]
-        public string AccountBankCode { get; set; }
+        public string? AccountBankCode { get; set; }
         [MaxLength(100)]
-        public string AccountBankName { get; set; }
+        public string? AccountBankName { get; set; }
         [MaxLength(100)]
-        public string AccountBankAccountName { get; set; }
+        public string? AccountBankAccountName { get; set; }
         [MaxLength(100)]
-        public string AccountBankAccountNumber { get; set; }
+        public string? AccountBankAccountNumber { get; set; }
         [MaxLength(100)]
-        public string AccountBankCurrencyCode { get; set; }
+        public string? AccountBankCurrencyCode { get; set; }
         [MaxLength(50)]
         public int AccountBankCurrencyId { get; set; }
         [MaxLength(100)]
-        public string AccountBankCurrencySymbol { get; set; }
+        public string? AccountBankCurrencySymbol { get; set; }
 
         //Destination Bank
         //[MaxLength(50)]
         public int DestinationBankId { get; set; }
         [MaxLength(25)]
-        public string DestinationBankCode { get; set; }
+        public string? DestinationBankCode { get; set; }
         [MaxLength(100)]
-        public string DestinationBankName { get; set; }
+        public string? DestinationBankName { get; set; }
         [MaxLength(100)]
-        public string DestinationBankAccountName { get; set; }
+        public string? DestinationBankAccountName { get; set; }
         [MaxLength(100)]
-        public string DestinationBankAccountNumber { get; set; }
+        public string? DestinationBankAccountNumber { get; set; }
         [MaxLength(100)]
-        public string DestinationBankCurrencyCode { get; set; }
+        public string? DestinationBankCurrencyCode { get; set; }
         [MaxLength(50)]
         public int DestinationBankCurrencyId { get; set; }
         [MaxLength(100)]
         public string DestinationBankCurrencySymbol { get; set; }
 
         [MaxLength(25)]
-        public string Code { get; set; }
+        public string? Code { get; set; }
         //Buyer
         [MaxLength(25)]
-        public string BuyerCode { get; set; }
+        public string? BuyerCode { get; set; }
         //[MaxLength(50)]
         public int BuyerId { get; set; }
         [MaxLength(150)]
-        public string BuyerName { get; set; }
+        public string? BuyerName { get; set; }
         public DateTimeOffset Date { get; set; }
         public decimal Nominal { get; set; }
         public decimal NominalValas { get; set; }
         public decimal TransactionNominal { get; set; }
         [MaxLength(50)]
-        public string ReferenceNo { get; set; }
+        public string? ReferenceNo { get; set; }
         [MaxLength(50)]
-        public string ReferenceType { get; set; }
+        public string? ReferenceType { get; set; }
         [MaxLength(500)]
-        public string Remark { get; set; }
+        public string? Remark { get; set; }
         [MaxLength(50)]
-        public string SourceType { get; set; }
+        public string? SourceType { get; set; }
         [MaxLength(50)]
-        public string Status { get; set; }
+        public string? Status { get; set; }
         //Supplier
         //[MaxLength(50)]
         public int SupplierId { get; set; }
         [MaxLength(100)]
-        public string SupplierCode { get; set; }
+        public string? SupplierCode { get; set; }
         [MaxLength(250)]
-        public string SupplierName { get; set; }
+        public string? SupplierName { get; set; }
 
         //Receiver from supplier
-        public string Receiver { get; set; }
+        public string? Receiver { get; set; }
 
         public decimal AfterNominal { get; set; }
         public decimal AfterNominalValas { get; set; }
@@ -85,13 +85,13 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.DailyBankTransactio
         public decimal CurrencyRate { get; set; }
         public bool IsPosted { get; set; }
         [MaxLength(128)]
-        public string FinancingSourceReferenceNo { get; set; }
+        public string? FinancingSourceReferenceNo { get; set; }
         public int FinancingSourceReferenceId { get; set; }
         // public decimal NominalOut { get; set; }
         public decimal Rates { get; set; }
         public decimal BankCharges { get; set; }
         [MaxLength(50)]
-        public string SourceFundingType { get; set; }
+        public string? SourceFundingType { get; set; }
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {

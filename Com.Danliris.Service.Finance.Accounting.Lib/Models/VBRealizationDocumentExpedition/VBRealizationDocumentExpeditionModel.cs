@@ -56,42 +56,42 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.VBRealizationDocume
         public int VBRealizationId { get; private set; }
         public int VBId { get; private set; }
         [MaxLength(64)]
-        public string VBNo { get; private set; }
+        public string? VBNo { get; private set; }
         [MaxLength(64)]
-        public string VBRealizationNo { get; private set; }
+        public string? VBRealizationNo { get; private set; }
         public DateTimeOffset VBRealizationDate { get; private set; }
         [MaxLength(256)]
-        public string VBRequestName { get; private set; }
+        public string? VBRequestName { get; private set; }
         public int UnitId { get; private set; }
         [MaxLength(64)]
-        public string UnitName { get; private set; }
+        public string? UnitName { get; private set; }
         public int DivisionId { get; private set; }
         [MaxLength(64)]
-        public string DivisionName { get; private set; }
+        public string? DivisionName { get; private set; }
         public decimal VBAmount { get; private set; }
         public decimal VBRealizationAmount { get; private set; }
-        public string CurrencyCode { get; private set; }
+        public string? CurrencyCode { get; private set; }
         public double CurrencyRate { get; private set; }
         [MaxLength(256)]
-        public string SendToVerificationBy { get; private set; }
+        public string? SendToVerificationBy { get; private set; }
         public DateTimeOffset? SendToVerificationDate { get; private set; }
         [MaxLength(256)]
-        public string VerificationReceiptBy { get; private set; }
+        public string? VerificationReceiptBy { get; private set; }
         public DateTimeOffset? VerificationReceiptDate { get; private set; }
         [MaxLength(256)]
-        public string VerifiedToCashierBy { get; private set; }
+        public string? VerifiedToCashierBy { get; private set; }
         public DateTimeOffset? VerifiedToCashierDate { get; private set; }
         [MaxLength(256)]
-        public string CashierReceiptBy  { get; private set; }
+        public string? CashierReceiptBy  { get; private set; }
         public DateTimeOffset? CashierReceiptDate { get; private set; }
-        public string NotVerifiedReason { get; private set; }
+        public string? NotVerifiedReason { get; private set; }
         [MaxLength(256)]
-        public string NotVerifiedBy { get; private set; }
+        public string? NotVerifiedBy { get; private set; }
         public DateTimeOffset? NotVerifiedDate { get; private set; }
         public VBRealizationPosition Position { get; private set; }
         [MaxLength(64)]
         public VBType VBType { get; set; }
-        public string Purpose { get; private set; }
+        public string? Purpose { get; private set; }
 
         public void SubmitToVerification(string name)
         {

@@ -7,8 +7,8 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.MemoGarmentPurchasi
     {
         public int MemoId { get; set; }
         public int COAId { get; set; }
-        public string COANo { get; set; }
-        public string COAName { get; set; }
+        public string? COANo { get; set; }
+        public string? COAName { get; set; }
         public double DebitNominal { get; set; }
         public double CreditNominal { get; set; }
 

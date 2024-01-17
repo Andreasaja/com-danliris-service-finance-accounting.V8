@@ -11,9 +11,9 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentFinance.Memo
     {
         public int ChartOfAccountId { get; set; }
         [MaxLength(32)]
-        public string ChartOfAccountCode { get; set; }
+        public string? ChartOfAccountCode { get; set; }
         [MaxLength(255)]
-        public string ChartOfAccountName { get; set; }
+        public string? ChartOfAccountName { get; set; }
         public decimal Credit { get; set; }
         public decimal Debit { get; set; }
         public virtual int MemorialDetailId { get; set; }

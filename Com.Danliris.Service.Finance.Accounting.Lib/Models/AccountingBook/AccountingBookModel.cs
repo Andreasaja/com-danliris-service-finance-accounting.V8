@@ -10,11 +10,11 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.AccountingBook
     {
         [StringLength(10)]
         [Required]
-        public string Code { get; set; }
+        public string? Code { get; set; }
         [StringLength(255)]
-        public string Remarks { get; set; }
+        public string? Remarks { get; set; }
         [StringLength(255)]
         [Required]
-        public string AccountingBookType { get; set; }
+        public string? AccountingBookType { get; set; }
     }
 }

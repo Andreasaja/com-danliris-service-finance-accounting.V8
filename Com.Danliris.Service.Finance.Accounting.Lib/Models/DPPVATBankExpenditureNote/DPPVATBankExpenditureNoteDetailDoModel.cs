@@ -35,10 +35,10 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.DPPVATBankExpenditu
 
         }
 
-        public string DONo { get; set; }
+        public string? DONo { get; set; }
         public double TotalAmount { get; set; }
-        public string PaymentBill { get; set; }
-        public string BillNo { get; set; }
+        public string? PaymentBill { get; set; }
+        public string? BillNo { get; set; }
         public long DOId { get; set; }
         public double CurrencyRate { get; set; }
         public int DPPVATBankExpenditureNoteId { get; set; }

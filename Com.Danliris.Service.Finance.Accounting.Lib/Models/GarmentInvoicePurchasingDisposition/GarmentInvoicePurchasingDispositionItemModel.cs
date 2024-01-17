@@ -23,12 +23,12 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentInvoicePurch
 
 
         public int DispositionId { get; private set; }
-        public string DispositionNo { get; private set; }
+        public string? DispositionNo { get; private set; }
         public DateTimeOffset DispositionDate { get; private set; }
         public DateTimeOffset DipositionDueDate { get; private set; }
-        public string ProformaNo { get; private set; }
-        public string SupplierName { get; private set; }
-        public string Category { get; private set; }
+        public string? ProformaNo { get; private set; }
+        public string? SupplierName { get; private set; }
+        public string? Category { get; private set; }
         public double VATAmount { get; private set; }
         public double TotalAmount { get; private set; }
         public double TotalPaid { get; private set; }
@@ -37,7 +37,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentInvoicePurch
         /// </summary>
         public double TotalPaidBefore { get; private set; }
         public int CurrencyId { get; private set; }
-        public string CurrencyCode { get; private set; }
+        public string? CurrencyCode { get; private set; }
         public double CurrencyRate { get; private set; }
         public int GarmentInvoicePurchasingDispositionId { get; set; }
         public int PurchasingDispositionExpeditionId { get; private set; }

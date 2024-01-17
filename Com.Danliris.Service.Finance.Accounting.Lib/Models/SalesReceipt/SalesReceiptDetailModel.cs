@@ -25,7 +25,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.SalesReceipt
 
         public DateTimeOffset DueDate { get; set; }
         [MaxLength(255)]
-        public string VatType { get; set; }
+        public string? VatType { get; set; }
         public double Tempo { get; set; }
 
         //TotalPayment => jumlah yang ditangguhkan

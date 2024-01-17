@@ -10,17 +10,17 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentFinance.Bank
     public class BankCashReceiptDetailItemModel : StandardEntity
     {
         public int InvoiceId { get; set; }
-        public string InvoiceNo { get; set; }
+        public string? InvoiceNo { get; set; }
 
         public int BuyerId { get; set; }
         [MaxLength(255)]
-        public string BuyerCode { get; set; }
+        public string? BuyerCode { get; set; }
         [MaxLength(1000)]
-        public string BuyerName { get; set; }
+        public string? BuyerName { get; set; }
 
         public int CurrencyId { get; set; }
         [MaxLength(32)]
-        public string CurrencyCode { get; set; }
+        public string? CurrencyCode { get; set; }
         public decimal CurrencyRate { get; set; }
 
         public decimal Amount { get; set; }

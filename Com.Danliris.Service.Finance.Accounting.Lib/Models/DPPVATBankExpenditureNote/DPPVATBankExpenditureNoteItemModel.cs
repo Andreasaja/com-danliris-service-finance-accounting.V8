@@ -36,12 +36,12 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.DPPVATBankExpenditu
         public int DPPVATBankExpenditureNoteId { get; private set; }
         public int InternalNoteId { get; private set; }
         [MaxLength(32)]
-        public string InternalNoteNo { get; private set; }
+        public string? InternalNoteNo { get; private set; }
         public DateTimeOffset InternalNoteDate { get; private set; }
         public DateTimeOffset DueDate { get; private set; }
         public int SupplierId { get; private set; }
         [MaxLength(1024)]
-        public string SupplierName { get; private set; }
+        public string? SupplierName { get; private set; }
         public bool IsImportSupplier { get; private set; }
         public double VATAmount { get; private set; }
         public double IncomeTaxAmount { get; private set; }
@@ -49,8 +49,8 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.DPPVATBankExpenditu
         public double TotalAmount { get; private set; }
         public int CurrencyId { get; private set; }
         [MaxLength(32)]
-        public string CurrencyCode { get; private set; }
+        public string? CurrencyCode { get; private set; }
         public double OutstandingAmount { get; private set; }
-        public string SupplierCode { get; private set; }
+        public string? SupplierCode { get; private set; }
     }
 }

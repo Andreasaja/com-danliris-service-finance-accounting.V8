@@ -30,7 +30,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.PurchasingMemoDetai
         public int PurchasingMemoDetailTextileDetailId { get; private set; }
         public int UnitReceiptNoteId { get; private set; }
         [MaxLength(64)]
-        public string UnitReceiptNoteNo { get; private set; }
+        public string? UnitReceiptNoteNo { get; private set; }
         public DateTimeOffset UnitReceiptNoteDate { get; private set; }
     }
 }

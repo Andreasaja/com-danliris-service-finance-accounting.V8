@@ -38,23 +38,23 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentPurchasingPp
         /// <summary>
         /// Nomor Bukti Keluar
         /// </summary>
-        public string InvoiceOutNumber { get; set; }
+        public string? InvoiceOutNumber { get; set; }
         public DateTimeOffset InvoiceOutDate { get; set; }
         public DateTimeOffset DueDateStart { get; set; }
         public DateTimeOffset DueDateEnd { get; set; }
         public int IncomeTaxId { get; set; }
-        public string IncomeTaxName { get; set; }
+        public string? IncomeTaxName { get; set; }
         public double IncomeTaxRate { get; set; }
-        public string AccountBankCOA { get; set; }
-        public string AccountBankName { get; set; }
-        public string AccountBankNumber { get; set; }
-        public string BankAddress { get; set; }
-        public string BankCode { get; set; }
-        public string BankName { get; set; }
-        public string BankCode1 { get; set; }
-        public string BankCurrencyCode { get; set; }
+        public string? AccountBankCOA { get; set; }
+        public string? AccountBankName { get; set; }
+        public string? AccountBankNumber { get; set; }
+        public string? BankAddress { get; set; }
+        public string? BankCode { get; set; }
+        public string? BankName { get; set; }
+        public string? BankCode1 { get; set; }
+        public string? BankCurrencyCode { get; set; }
         public int BankCurrencyId { get; set; }
-        public string BankSwiftCode { get; set; }
+        public string? BankSwiftCode { get; set; }
         public bool IsPosted { get; set; }
         public virtual ICollection<GarmentPurchasingPphBankExpenditureNoteItemModel> Items { get; set; }
     }

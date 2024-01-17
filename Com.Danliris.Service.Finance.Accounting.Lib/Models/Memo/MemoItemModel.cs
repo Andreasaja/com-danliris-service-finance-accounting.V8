@@ -8,7 +8,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.Memo
     {
         public int CurrencyId { get; set; }
         [MaxLength(64)]
-        public string CurrencyCode { get; set; }
+        public string? CurrencyCode { get; set; }
         public decimal CurrencyRate { get; set; }
         public decimal PaymentAmount { get; set; }
         public decimal Interest { get; set; }

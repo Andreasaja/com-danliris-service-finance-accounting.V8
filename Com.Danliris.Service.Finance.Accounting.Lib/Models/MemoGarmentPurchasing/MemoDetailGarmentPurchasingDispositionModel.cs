@@ -8,6 +8,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.MemoGarmentPurchasi
         public int MemoDetailGarmentPurchasingId { get; set; }
         public int DispositionId { get; set; }
         [MaxLength(128)]
-        public string DispositionNo { get; set; }
+        public string? DispositionNo { get; set; }
     }
 }
+    

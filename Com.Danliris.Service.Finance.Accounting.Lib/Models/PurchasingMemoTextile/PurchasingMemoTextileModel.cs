@@ -29,18 +29,18 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.PurchasingMemoTexti
 
         public int MemoDetailId { get; private set; }
         [MaxLength(32)]
-        public string MemoDetailDocumentNo { get; private set; }
+        public string? MemoDetailDocumentNo { get; private set; }
         public DateTimeOffset MemoDetailDate { get; private set; }
         public int MemoDetailCurrencyId { get; private set; }
         [MaxLength(32)]
-        public string MemoDetailCurrencyCode { get; private set; }
+        public string? MemoDetailCurrencyCode { get; private set; }
         public double MemoDetailCurrencyRate { get; private set; }
         public int AccountingBookId { get; private set; }
         [MaxLength(256)]
-        public string AccountingBookType { get; private set; }
+        public string? AccountingBookType { get; private set; }
         [MaxLength(128)]
-        public string AccountingBookCode { get; private set; }
-        public string Remark { get; private set; }
+        public string? AccountingBookCode { get; private set; }
+        public string? Remark { get; private set; }
         public bool IsPosted { get; private set; }
 
         public void SetIsPosted(bool value)

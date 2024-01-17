@@ -31,9 +31,9 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.VBRequestDocument
         public int VBRequestDocumentId { get; private set; }
         public int EPOId { get; private set; }
         [MaxLength(64)]
-        public string EPONo { get; private set; }
+        public string? EPONo { get; private set; }
         
-        public string Remark { get; }
+        public string? Remark { get; }
 
         internal void UpdateFromForm(VBRequestDocumentWithPOItemFormDto item)
         {

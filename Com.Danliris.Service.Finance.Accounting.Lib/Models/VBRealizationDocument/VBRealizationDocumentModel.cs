@@ -138,15 +138,15 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.VBRealizationDocume
         
 
         public VBRealizationPosition Position { get; private set; }
-        public string Remark { get; private set; }
+        public string? Remark { get; private set; }
         public VBType Type { get; private set; }
         public RealizationDocumentType DocumentType { get; private set; }
         public int Index { get; private set; }
         [MaxLength(64)]
-        public string DocumentNo { get; private set; }
+        public string? DocumentNo { get; private set; }
         public DateTimeOffset Date { get; private set; }
         [MaxLength(32)]
-        public string VBNonPoType { get; private set; }
+        public string? VBNonPoType { get; private set; }
 
         public void SetIsCompleted(DateTimeOffset? completedDate, string username, string userAgent, string referenceNo)
         {
@@ -159,50 +159,50 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.VBRealizationDocume
 
         public int VBRequestDocumentId { get; private set; }
         [MaxLength(64)]
-        public string VBRequestDocumentNo { get; private set; }
+        public string? VBRequestDocumentNo { get; private set; }
         public DateTimeOffset? VBRequestDocumentDate { get; private set; }
         public DateTimeOffset? VBRequestDocumentRealizationEstimationDate { get; private set; }
         [MaxLength(256)]
-        public string VBRequestDocumentCreatedBy { get; private set; }
-        public string VBRequestDocumentPurpose { get; private set; }
+        public string? VBRequestDocumentCreatedBy { get; private set; }
+        public string? VBRequestDocumentPurpose { get; private set; }
         public int SuppliantUnitId { get; private set; }
         [MaxLength(64)]
-        public string SuppliantUnitCode { get; private set; }
+        public string? SuppliantUnitCode { get; private set; }
         [MaxLength(64)]
-        public string SuppliantUnitName { get; private set; }
+        public string? SuppliantUnitName { get; private set; }
         public int SuppliantDivisionId { get; private set; }
         [MaxLength(64)]
-        public string SuppliantDivisionCode { get; private set; }
+        public string? SuppliantDivisionCode { get; private set; }
         [MaxLength(64)]
-        public string SuppliantDivisionName { get; private set; }
+        public string? SuppliantDivisionName { get; private set; }
         public int CurrencyId { get; private set; }
         [MaxLength(64)]
-        public string CurrencyCode { get; private set; }
+        public string? CurrencyCode { get; private set; }
         [MaxLength(64)]
-        public string CurrencySymbol { get; private set; }
+        public string? CurrencySymbol { get; private set; }
         public double CurrencyRate { get; private set; }
         [MaxLength(256)]
-        public string CurrencyDescription { get; private set; }
+        public string? CurrencyDescription { get; private set; }
         [Column(TypeName = "decimal(18,2)")]
         public decimal VBRequestDocumentAmount { get; private set; }
         [Column(TypeName = "decimal(18,2)")]
         public decimal Amount { get; private set; }
 
         public bool IsVerified { get; private set; }
-        public string NotVerifiedReason { get; private set; }
+        public string? NotVerifiedReason { get; private set; }
         public DateTimeOffset? VerificationDate { get; private set; }
         [MaxLength(256)]
-        public string VerifiedBy { get; private set; }
+        public string? VerifiedBy { get; private set; }
         public bool IsCompleted { get; private set; }
         public DateTimeOffset? CompletedDate { get; private set; }
         [MaxLength(512)]
-        public string CompletedBy { get; private set; }
+        public string? CompletedBy { get; private set; }
         [MaxLength(128)]
-        public string ReferenceNo { get; private set; }
+        public string? ReferenceNo { get; private set; }
         [MaxLength(256)]
-        public string BLAWBNumber { get; private set; }
+        public string? BLAWBNumber { get; private set; }
         [MaxLength(256)]
-        public string ContractPONumber { get; private set; }
+        public string? ContractPONumber { get; private set; }
         public bool IsInklaring { get; private set; }
         public void SetCurrency(int newCurrencyId, string newCurrencyCode, string newCurrencySymbol, double newCurrencyRate, string newCurrencyDescription, string user, string userAgent)
         {

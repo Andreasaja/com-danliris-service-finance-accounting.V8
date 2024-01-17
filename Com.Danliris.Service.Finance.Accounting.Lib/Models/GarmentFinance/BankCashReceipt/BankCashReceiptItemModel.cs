@@ -15,15 +15,15 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentFinance.Bank
 
         public int AccNumberCoaId { get; set; }
         [MaxLength(32)]
-        public string AccNumberCoaCode { get; set; }
+        public string? AccNumberCoaCode { get; set; }
         [MaxLength(256)]
-        public string AccNumberCoaName { get; set; }
+        public string? AccNumberCoaName { get; set; }
 
         public int AccSubCoaId { get; set; }
         [MaxLength(32)]
-        public string AccSubCoaCode { get; set; }
+        public string? AccSubCoaCode { get; set; }
         [MaxLength(256)]
-        public string AccSubCoaName { get; set; }
+        public string? AccSubCoaName { get; set; }
 
         //public int AccUnitCoaId { get; set; }
         //[MaxLength(32)]
@@ -48,9 +48,9 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentFinance.Bank
         //public decimal C1B { get; set; }
 
         [MaxLength(256)]
-        public string NoteNumber { get; set; }
+        public string? NoteNumber { get; set; }
         [MaxLength(1024)]
-        public string Remarks { get; set; }
+        public string? Remarks { get; set; }
 
     }
 }

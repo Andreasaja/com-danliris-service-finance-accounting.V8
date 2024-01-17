@@ -8,25 +8,25 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentPurchasingPp
 {
     public class GarmentPurchasingPphBankExpenditureNoteItemModel : StandardEntity
     {
-        public string InternalNotesNo { get; set; }
+        public string? InternalNotesNo { get; set; }
         public int InternalNotesId { get; set; }
         public DateTimeOffset Date { get; set; }
         public DateTimeOffset DueDate { get; set; }
         public int SupplierId { get; set; }
-        public string SupplierName { get; set; }
-        public string SupplierCode { get; set; }
+        public string? SupplierName { get; set; }
+        public string? SupplierCode { get; set; }
         public double VAT { get; set; }
         public double CorrectionAmount { get; set; }
         public double IncomeTaxTotal { get; set; }
         public double IncomeTaxRate { get; set; }
         public int IncomeTaxId { get; set; }
-        public string IncomeTaxName { get; set; }
+        public string? IncomeTaxName { get; set; }
         public double TotalPaid { get; set; }
         public int CurrencyId { get; set; }
-        public string CurrencyCode { get; set; }
+        public string? CurrencyCode { get; set; }
         public double AmountDPP { get; set; }
-        public string PaymentType { get; set; }
-        public string PaymentMethod { get; set; }
+        public string? PaymentType { get; set; }
+        public string? PaymentMethod { get; set; }
         public int PaymentDueDays { get; set; }
         public virtual int GarmentPurchasingPphBankExpenditureNoteId { get; set; }
         [ForeignKey("GarmentPurchasingPphBankExpenditureNoteId")]

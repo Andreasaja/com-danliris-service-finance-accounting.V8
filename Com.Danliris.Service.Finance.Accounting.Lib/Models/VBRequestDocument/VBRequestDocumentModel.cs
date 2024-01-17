@@ -83,32 +83,32 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.VBRequestDocument
         }
 
         [MaxLength(64)]
-        public string DocumentNo { get; private set; }
+        public string? DocumentNo { get; private set; }
         public DateTimeOffset Date { get; private set; }
         public DateTimeOffset RealizationEstimationDate { get; private set; }
         public int CurrencyId { get; private set; }
         [MaxLength(64)]
-        public string CurrencyCode { get; private set; }
+        public string? CurrencyCode { get; private set; }
         [MaxLength(64)]
-        public string CurrencySymbol { get; private set; }
+        public string? CurrencySymbol { get; private set; }
         public double CurrencyRate { get; private set; }
         [MaxLength(256)]
-        public string CurrencyDescription { get; private set; }
-        public string Purpose { get; private set; }
+        public string? CurrencyDescription { get; private set; }
+        public string? Purpose { get; private set; }
         [Column(TypeName = "decimal(18,2)")]
         public decimal Amount { get; private set; }
         public bool IsPosted { get; private set; }
         public VBType Type { get; private set; }
         public int SuppliantUnitId { get; private set; }
         [MaxLength(64)]
-        public string SuppliantUnitCode { get; private set; }
+        public string? SuppliantUnitCode { get; private set; }
         [MaxLength(256)]
-        public string SuppliantUnitName { get; private set; }
+        public string? SuppliantUnitName { get; private set; }
         public int SuppliantDivisionId { get; private set; }
         [MaxLength(64)]
-        public string SuppliantDivisionCode { get; private set; }
+        public string? SuppliantDivisionCode { get; private set; }
         [MaxLength(256)]
-        public string SuppliantDivisionName { get; private set; }
+        public string? SuppliantDivisionName { get; private set; }
 
         public int Index { get; private set; }
 
@@ -116,37 +116,37 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.VBRequestDocument
 
 
         public ApprovalStatus ApprovalStatus { get; private set; }
-        public string CancellationReason { get; private set; }
+        public string? CancellationReason { get; private set; }
         public DateTimeOffset? ApprovalDate { get; private set; }
         [MaxLength(256)]
-        public string ApprovedBy { get; private set; }
+        public string? ApprovedBy { get; private set; }
 
         public DateTimeOffset? CancellationDate { get; private set; }
         [MaxLength(256)]
-        public string CanceledBy { get; private set; }
+        public string? CanceledBy { get; private set; }
 
         public bool IsCompleted { get; private set; }
         public DateTimeOffset? CompletedDate { get; private set; }
         [MaxLength(256)]
-        public string CompletedBy { get; private set; }
+        public string? CompletedBy { get; private set; }
         [DefaultValue(false)]
         public bool IsInklaring { get; private set; }
-        public string NoBL { get; private set; }
-        public string NoPO { get; private set; }
-        public string TypePurchasing { get; private set; }
+        public string? NoBL { get; private set; }
+        public string? NoPO { get; private set; }
+        public string? TypePurchasing { get; private set; }
         public int BankId { get; private set; }
-        public string BankCode { get; private set; }
-        public string BankBankCode { get; private set; }
-        public string BankAccountName { get; private set; }
-        public string BankAccountNumber { get; private set; }
-        public string BankBankName { get; private set; }
-        public string BankAccountCOA { get; private set; }
+        public string? BankCode { get; private set; }
+        public string? BankBankCode { get; private set; }
+        public string? BankAccountName { get; private set; }
+        public string? BankAccountNumber { get; private set; }
+        public string? BankBankName { get; private set; }
+        public string? BankAccountCOA { get; private set; }
         public long BankCurrencyId { get; private set; }
-        public string BankCurrencyCode { get; private set; }
-        public string BankCurrencySymbol { get; private set; }
+        public string? BankCurrencyCode { get; private set; }
+        public string? BankCurrencySymbol { get; private set; }
         public double BankCurrencyRate { get; private set; }
-        public string BankCurrencyDescription { get; private set; }
-        public string BankDocumentNo { get; private set; }
+        public string? BankCurrencyDescription { get; private set; }
+        public string? BankDocumentNo { get; private set; }
 
 
         public void SetDate(DateTimeOffset newDate, string user, string userAgent)

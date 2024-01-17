@@ -11,9 +11,9 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.GarmentFinance.Loca
         public DateTimeOffset BalanceDate { get; set; }
         public int BuyerId { get; set; }
         [MaxLength(10)]
-        public string BuyerCode { get; set; }
+        public string? BuyerCode { get; set; }
         [StringLength(255)]
-        public string BuyerName { get; set; }
+        public string? BuyerName { get; set; }
         public double BalanceAmount { get; set; }
     }
 }

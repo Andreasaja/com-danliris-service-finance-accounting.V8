@@ -11,7 +11,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.JournalTransaction
     {
         public int COAId { get; set; }
         public virtual COAModel COA { get; set; }
-        public string Remark { get; set; }
+        public string? Remark { get; set; }
         [Column(TypeName = "decimal(18,2)")]
         public decimal Debit { get; set; }
         [Column(TypeName = "decimal(18,2)")]

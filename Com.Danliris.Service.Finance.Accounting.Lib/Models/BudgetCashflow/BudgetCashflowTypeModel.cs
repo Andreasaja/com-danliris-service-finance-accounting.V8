@@ -18,7 +18,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.BudgetCashflow
         }
 
         [MaxLength(512)]
-        public string Name { get; private set; }
+        public string? Name { get; private set; }
         public int LayoutOrder { get; private set; }
 
         public void SetNewNameAndLayoutOrder(string name, int layoutOrder)

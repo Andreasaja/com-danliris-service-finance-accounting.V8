@@ -31,10 +31,10 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.BudgetCashflow
         }
 
         [MaxLength(512)]
-        public string Name { get; private set; }
+        public string? Name { get; private set; }
         public int CashflowCategoryId { get; private set; }
         public int LayoutOrder { get; private set; }
-        public string PurchasingCategoryIds { get; private set; }
+        public string? PurchasingCategoryIds { get; private set; }
         public bool IsReadOnly { get; private set; }
         public ReportType ReportType { get; private set; }
         public bool IsImport { get; private set; }

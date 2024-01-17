@@ -58,9 +58,9 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.CreditorAccount
         }
         #region Supplier
         [MaxLength(512)]
-        public string SupplierName { get; set; }
+        public string? SupplierName { get; set; }
         [MaxLength(128)]
-        public string SupplierCode { get; set; }
+        public string? SupplierCode { get; set; }
 
         public bool SupplierIsImport { get; set; }
         #endregion
@@ -68,23 +68,23 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.CreditorAccount
         #region Division
         public int DivisionId { get; set; }
 
-        public string DivisionCode { get; set; }
+        public string? DivisionCode { get; set; }
 
-        public string DivisionName { get; set; }
+        public string? DivisionName { get; set; }
         #endregion
 
         #region Unit
         public int UnitId { get; set; }
 
-        public string UnitCode { get; set; }
+        public string? UnitCode { get; set; }
 
-        public string UnitName { get; set; }
+        public string? UnitName { get; set; }
         #endregion
 
         #region Unit Payment Correction
         public int UnitPaymentCorrectionId { get; set; }
         [MaxLength(128)]
-        public string UnitPaymentCorrectionNo { get; set; }
+        public string? UnitPaymentCorrectionNo { get; set; }
         public decimal UnitPaymentCorrectionDPP { get; set; }
         public decimal UnitPaymentCorrectionPPN { get; set; }
         public decimal UnitPaymentCorrectionMutation { get; set; }
@@ -93,9 +93,9 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.CreditorAccount
 
         #region UnitReceiptNote
         [MaxLength(128)]
-        public string UnitReceiptNoteNo { get; set; }
+        public string? UnitReceiptNoteNo { get; set; }
 
-        public string Products { get; set; }
+        public string? Products { get; set; }
 
         public DateTimeOffset? UnitReceiptNoteDate { get; set; }
 
@@ -107,14 +107,14 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.CreditorAccount
         public decimal IncomeTaxAmount { get; set; }
         public decimal VATAmount { get; set; }
         [MaxLength(512)]
-        public string IncomeTaxNo { get; set; }
-        public string ExternalPurchaseOrderNo { get; set; }
+        public string? IncomeTaxNo { get; set; }
+        public string? ExternalPurchaseOrderNo { get; set; }
         #endregion
 
         #region BankExpenditureNote
         public int BankExpenditureNoteId { get; set; }
         [MaxLength(128)]
-        public string BankExpenditureNoteNo { get; set; }
+        public string? BankExpenditureNoteNo { get; set; }
 
         public DateTimeOffset? BankExpenditureNoteDate { get; set; }
 
@@ -127,7 +127,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.CreditorAccount
 
         #region Memo has been changed to SPBNo or NI No
         [MaxLength(128)]
-        public string MemoNo { get; set; }
+        public string? MemoNo { get; set; }
 
         public DateTimeOffset? MemoDate { get; set; }
 
@@ -137,19 +137,19 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.Models.CreditorAccount
 
         public decimal MemoMutation { get; set; }
         [MaxLength(512)]
-        public string PaymentDuration { get; set; }
+        public string? PaymentDuration { get; set; }
         #endregion
         [MaxLength(128)]
-        public string InvoiceNo { get; set; }
+        public string? InvoiceNo { get; set; }
 
         public decimal FinalBalance { get; set; }
         [MaxLength(64)]
-        public string CurrencyCode { get; set; }
+        public string? CurrencyCode { get; set; }
 
         public decimal DPPCurrency { get; set; }
         public decimal CurrencyRate { get; set; }
 
-        public string PurchasingMemoNo { get; set; }
+        public string? PurchasingMemoNo { get; set; }
         public int PurchasingMemoId { get; set; }
         public double PurchasingMemoAmount { get; set; }
         public DateTimeOffset? PurchasingMemoDate { get; set; }
