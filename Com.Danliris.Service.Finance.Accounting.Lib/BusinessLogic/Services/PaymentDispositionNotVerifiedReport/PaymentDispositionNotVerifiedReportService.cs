@@ -42,7 +42,7 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.Pay
 
             if (type == "notHistory")
             {
-                header = header.GroupBy(x => x.DispositionNo)
+                header = header.GroupBy(x => x.DispositionNo).ToList()
                         .Select(g => g.OrderByDescending(x => x.LastModifiedUtc).FirstOrDefault()).AsQueryable();
             }
 
@@ -57,17 +57,17 @@ namespace Com.Danliris.Service.Finance.Accounting.Lib.BusinessLogic.Services.Pay
 
                          select new PaymentDispositionNotVerifiedReportViewModel
                        {
-                           DispositionNo = a.DispositionNo,
-                           DivisionName = a.DivisionName,
-                           SupplierName = a.SupplierName,
-                           VerifyDate = a.VerifyDate,
-                           Currency = a.CurrencyCode,
-                           DispositionDate = a.DispositionDate,
-                           PayToSupplier = a.PayToSupplier,
-                           NotVerifiedReason = a.NotVerifiedReason,
-                           LastModifiedUtc = a.LastModifiedUtc,
-                           CreatedUtc = a.CreatedUtc 
-                       });
+                             DispositionNo = a.DispositionNo,
+                             DivisionName = a.DivisionName,
+                             SupplierName = a.SupplierName,
+                             VerifyDate = a.VerifyDate,
+                             Currency = a.CurrencyCode,
+                             DispositionDate = a.DispositionDate,
+                             PayToSupplier = a.PayToSupplier,
+                             NotVerifiedReason = a.NotVerifiedReason,
+                             LastModifiedUtc = a.LastModifiedUtc,
+                             CreatedUtc = a.CreatedUtc
+                         });
 
             return Query;
         }
